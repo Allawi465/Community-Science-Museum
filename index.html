@@ -7,35 +7,41 @@
     <title>Document</title>
     <link rel="stylesheet" href="CSS\homepage.css">
     <script src="https://kit.fontawesome.com/a2e814cf6f.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500&display=swap" rel="stylesheet"> 
 </head>
 <body>
     <header>
         <div class="navbar navbar--bg">
             <div class="navbar__content navbar-centered">
-             <a href="index.html" class="logo-header"> <img src=images\logo.png class="logo-header" alt="a logo for Community Science Museum"></a>
+                <h1 class="h1-header">Community Science Museum</h1>
+                <div class="logo-container">
+                    <a href="index.html" class="logo-header"> <img src=images\logo.png  alt="a logo for Community Science Museum"></a>
+                </div>
              <input type="checkbox" id="toggle">
-             <label for="toggle"></label>  
+            <label for="toggle"></label>  
              <nav class="menu">
                  <a href="" class="nav-link">Home</a>
                  <a href="" class="nav-link">Visit Us</a>
                  <a href="" class="nav-link">Events</a>
-                 <a href=""class="nav-link">Exhibitions</a>
-                 <a href=""class="nav-link">Search</a>
+                 <a href="" class="nav-link">Exhibitions</a>
+                 <a href="" class="nav-link">Search</a>
              </nav>
             </div>
         </div>
     </header>
     <main>
-        <section>
+        <section class="explore-us-content">
+            <h1 class="mainh1">Community Science Museum</h1>
                 <div class="csmcontent-col">
-                 <h1 class="mainh1">Community Science Museum</h1>
                  <img src="images\csm.jpg" alt="inside our museum" class="startimage">
                  <span class="ctalinks">
                     <a href="" class="cta">Explore Together</a>
                  </span>
             </div>
             </section>
-        <section>
+        <section class="visit-section">
             <a href="" class="visith2">Visit Us</a>
             <div class="visit-container">
                 <div class="visit-kol">
@@ -66,10 +72,10 @@
             <div class="science-container">
                 <div class="images-kol">
                     <div class="sciene-image-singel">
-                        <img src="images\sciencewithvr.jpg" alt=""     class="sicence-img">
+                        <img src="images\sciencewithvr.jpg" alt="" class="sicence-img">
                     </div>
                     <div class="sciene-image-singe2">
-                        <img src="images\science.jpg" alt="" class="sicence-img">
+                        <img src="images\science.jpg" alt="" class="sicence-img2">
                     </div>
                     <div class="sciene-image-singel3">
                         <img src="images\energetica.jpg" alt="" class="sicence-img">
@@ -78,22 +84,115 @@
                 <a href="" class="sciencelink">Explore Science</a>
             </div>
         </section>
-        <section>
+        <section class="event-section">
             <a href="" class="event-special-link">Special Events</a>
             <div class="events-container">
                 <div class="events-card">
-                    <h2>Professor of Aeronautics</h2>
-                    <p>lectures on the development of 
-                        aeronautics and where the future 
-                        lies in this exciting ‘space’.
-                    </p>
-                    <a href="">Read More</a>
-                    <p>Events</p>
-                    <p>30 December 2021 - 21 Januar 2021</p>
-                    <img src="images\aeronautics.jpg" class="event-images"
+                    <h2 class="event-h2">Professor of Aeronautics</h2>
+                    <span class="info-with-link">
+                        <p class="info-event">lectures on the development of 
+                            aeronautics and where the future 
+                            lies in this exciting ‘space’.
+                        </p>
+                        <span class="event-link2">
+                            <a href="" class="event-link">Read More</a>
+                        </span>
+                    </span>
+                    <span class="first-card-event">
+                        <p class="event-time">Events</p>
+                        <p class="event-time2">30 December 2021 - 21 Januar 2021</p>
+                        <img src="images\aeronautics.jpg" class="event-images"
+                        alt="">
+                    </span>
+                </div>
+                <div class="events-card">
+                    <h2 class="event-h2">Night in the Museum</h2>
+                    <span class="info-with-link">
+                        <p class="info-event">Get your family together for an 
+                            exciting night in the museum as 
+                            you sleep over beside dinosaurs 
+                            and science displays
+                        </p>
+                        <span class="event-link2">
+                            <a href="" class="event-link">Read More</a>
+                        </span>
+                    </span>
+                    <p class="event-time">Events</p>
+                    <p class="event-time2">30 December 2021 - 21 Januar 2021</p>
+                    <img src="images\night-sleep-over.jpg" class="event-images"
                     alt="">
                 </div>
-
+                <div class="events-card">
+                    <h2 class="event-h2">Energetica Exhibition</h2>
+                    <span class="info-with-link">
+                        <p class="info-event">On loan from the NEMO Science 
+                            Museum in 
+                            Amsterdam, the Energetica 
+                            exhibition is 
+                            coming to the Community Science 
+                            Museum. 
+                        </p>
+                        <span class="event-link2">
+                            <a href="" class="event-link">Read More</a>
+                        </span>
+                    </span>
+                    <p class="event-time">Events</p>
+                    <p class="event-time2">30 December 2021 - 21 Januar 2021</p>
+                    <img src="images\energetica.jpg" class="event-images"
+                    alt="">
+                </div>
+            </div>
+        </section>
+        <section class="exhibtions-section">
+            <a href="" class="exhibtions-link1">Exhibitions & Researchers</a>
+            <div class="exhibtions-container">
+                <div class="exhibtions-card">
+                    <img src="images\heart.jpg" alt="" class="exhibtions-img">
+                    <h3 class="exhibtions-h3">Scientific Research</h3>
+                    <p class="exhibtions-p">Are you looking to get involved 
+                        with our team of researchers
+                         and academics?</p>
+                    <a href="" class="exhibtions-link2">Explore more</a>
+                </div>
+                <div class="exhibtions-card">
+                    <img src="images\robotics.jpg" alt="" class="exhibtions-img">
+                    <h3 class="exhibtions-h3">Robotics And AI</h3>
+                    <p class="exhibtions-p">From useful home applications 
+                        of AI to industrial uses of 
+                        robotics, the future is here.</p>
+                    <a href="" class="exhibtions-link2">Explore more</a>
+                </div>
+                <div class="exhibtions-card">
+                    <img src="images\sky.jpg" alt="" class="exhibtions-img">
+                    <h3 class="exhibtions-h3">The Sky Above Us</h3>
+                    <p class="exhibtions-p">Our fantastic exhibition, 
+                        The Sky Above Us explores the night sky and what we can see and know about the universe around us.</p>
+                    <a href="" class="exhibtions-link2">Explore more</a>
+                </div>
+                <div class="exhibtions-card">
+                    <img src="images\evolution.jpg" alt="" class="exhibtions-img">
+                    <h3 class="exhibtions-h3">Evolution</h3>
+                    <p class="exhibtions-p">Discover the origins of life on 
+                        this planet and how the 
+                        species we know today have 
+                        evolved our time.</p>
+                    <a href="" class="exhibtions-link2">Explore more</a>
+                </div>
+                <div class="exhibtions-card">
+                    <img src="images\biology.jpg" alt="" class="exhibtions-img">
+                    <h3 class="exhibtions-h3">Biology And Medicine</h3>
+                    <p class="exhibtions-p">From micro-organisms to the human body, major breakthroughs in biology are offering us unique insights into the great wonders of the tiny world. </p>
+                    <a href="" class="exhibtions-link2">Explore more</a>
+                </div>
+                <div class="exhibtions-card">
+                    <img src="images\greenhappines.jpg" alt="" class="exhibtions-img">
+                    <h3 class="exhibtions-h3">Green Future</h3>
+                    <p class="exhibtions-p">scientists explore how to 
+                        create a sustainable future not 
+                        just for humans but for the 
+                        whole planet.</p>
+                    <a href="" class="exhibtions-link2">Explore more</a>
+                </div>
             </div>
         </section>
     </main>
@@ -109,13 +208,12 @@
                  </div>
                  <span class="social-links">
                     <a href=""><i class="fab fa-twitter"></i></a>
-                    <a href=""><i class="fab fa-youtube"></i></i></a>
+                    <a href=""><i class="fab fa-youtube"></i></a>
                     <a href=""><i class="fab fa-facebook"></i></a>
-                    <a href=""> <i class="fab fa-instagram"></i></a>
+                    <a href=""><i class="fab fa-instagram"></i></a>
                  </span>
                  </div>
                 </div>
-            </div>
         </Section>
         <div class="border-bottom"></div>
         <section>
