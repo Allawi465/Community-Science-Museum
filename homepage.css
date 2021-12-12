@@ -46,7 +46,7 @@
     align-items: center;
   }
 
-  .h1-header{
+  .p-header{
     font-size: 15px;
     width: 100px;
     font-weight: normal;
@@ -408,14 +408,14 @@
     padding: 10px 13px 20px;
   }
 
- .footerh1 {
+ .footerh2 {
    text-align: center;
    color: #000000;
    font-size: 20px;
    font-weight:lighter
   }
 
- .footerh2 {
+ .footerh3 {
    font-size: 13px;
    color: #000000;
    text-align: center;
@@ -549,7 +549,7 @@
     position: static;
   }
 
-  .h1-header{
+  .p-header{
     font-size: 25px;
     width: unset;
     position: relative;
@@ -749,7 +749,7 @@
 
 /* media queries for the footer*/
 
-  .footerh1 {
+  .footerh2 {
     text-align: unset;
     font-size: 30px;
     position: relative;
@@ -758,7 +758,7 @@
     white-space: nowrap;
   }
 
-  .footerh2 {
+  .footerh3 {
     font-size: 21px;
     text-align: right;
     position: relative;
