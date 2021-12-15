@@ -20,7 +20,7 @@
                     <a href="index.html" class="logo-header"> <img src=images/logo.png  alt="a logo for Community Science Museum"></a>
                 </div>
              <input type="checkbox" id="toggle">
-            <label for="toggle"></label>  
+            <label class="label-for-toggle" for="toggle"></label>  
              <nav class="menu">
                  <a href="" class="nav-link">Home</a>
                  <a href="visit.html" class="nav-link">Visit Us</a>
@@ -32,9 +32,9 @@
         </div>
     </header>
     <main>
-        <h1>Arrange the tour</h1>
-        <section>
-            <div>
+        <h1 class="arrange-h1">Arrange the tour</h1>
+        <section class="arrange-contact">
+            <div class="arrange-reservation">
                 <h2>Make a reservation with a call</h2>
                 <h3>Book a guided tour with our receptionist</h3>
                 <h4>receptionist  OPENING HOURS</h4>
@@ -42,7 +42,65 @@
                 <p>08 - 19</p>
                 <i class="fas fa-headset"></i>
                 <p>+47 22222222</p>
-                <div class="arrange-img"><img src="images/receptionist.jpg" alt="" class="arrange-img"></div>
+                <img src="images/receptionist.jpg" alt="" class="arrange-img">
+            </div>
+            <div class="contact-form">
+                <h2>BOOK YOURSELF</h2>
+                <form action="/action_page.php" method="post">
+                    <div class="row-form">
+                        <div class="col-name">
+                         <label for="first-name" class="label-name">First Name</label>
+                        </div>
+                        <div class="col-input">
+                          <input type="text1" id="first-name" name="first-name" placeholder="Your name..">
+                        </div>
+                    </div>
+                    <div class="row-form">
+                        <div class="col-name">
+                         <label for="last-name" class="label-name">Last Name</label>
+                        </div>
+                        <div class="col-input">
+                          <input type="text1" id="last-name" name="last-name" placeholder="Your last name..">
+                        </div>
+                    </div>
+                    <div class="row-form">
+                        <div class="col-name">
+                         <label for="email" class="label-name">E-mail</label>
+                        </div>
+                        <div class="col-input">
+                          <input type="text1" id="e-mail" name="e-mail" placeholder="Your E-mail..">
+                        </div>
+                    </div>
+                    <div class="row-form">
+                        <div class="col-name">
+                         <label for="phone" class="label-name">Phone Number</label>
+                        </div>
+                        <div class="col-input">
+                          <input type="text1" id="phone" name="phone" placeholder="Your phone number..">
+                        </div>
+                    </div>
+                    <div class="row-form">
+                        <div class="col-name">
+                         <label for="guests" class="label-name">#of Guests</label>
+                        </div>
+                        <div class="col-input">
+                          <input type="text1" id="guests" name="guests" placeholder="How many in a group..">
+                        </div>
+                    </div>
+                    <div class="row-form">
+                        <div class="col-name">
+                         <label for="DATE & TIME" class="label-name">Date & Time</label>
+                        </div>
+                        <div class="col-input">
+                            <input type="datetime-local" id="meeting-time"
+                            name="meeting-time" value="2018-06-12T19:30"
+                            min="2021-0614.12-07T00:00" max="2021-06-14T00:00">
+                        </div>
+                    </div>
+                    <div class="row-form">
+                        <input type="submit" value="Submit">
+                      </div>
+                </form>
             </div>
         </section>
     </main>
