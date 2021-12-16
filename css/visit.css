@@ -6,7 +6,7 @@ body {
   }
 
 .contact-body{
-    background: linear-gradient(#D5A839, #9198e5);839;
+  background: linear-gradient(#D5A839, #9198e5);
   }
 
 /* style for the header*/
@@ -148,9 +148,18 @@ body {
 
 /* main font-Syle for the h1, h2, h3 and links cta-buttons*/
 
+.about-h1 {
+  text-align: center;
+  font-size: 30px;
+  font-weight: lighter;
+}
+
 .arrange-h1 {
   flex: 0 0 100%;
   text-align: center;
+  font-size: 25px;
+  font-weight: lighter;
+  text-transform:uppercase;
 }
 
   .visith1 {
@@ -159,20 +168,73 @@ body {
     font-weight: lighter;
   }
 
+  .about-h2 {
+    font-size: 25px;
+    font-weight: lighter;
+  }
+
+  .about-h3 {
+    font-size: 20px;
+    font-weight: lighter;
+  }
+
+  .about-p {
+    font-size: 16px;
+  }
+
+  .about-p-science {
+    font-size: 16px;
+    text-align: center;
+  }
+  
+  .reservation-h2, .book-h2 {
+    font-size: 20px;
+    font-weight: lighter;
+  }
+
+  .reservation-h3 {
+    font-size: 18px;
+    font-weight: lighter;
+  }
+
+  .reservation-h4 {
+    font-size: 16px;
+    font-weight: lighter;
+  }
+
+  .opening-info {
+    display: inline-block;
+    font-weight: lighter;
+    font-size: 15px;
+  }
+
+  .reservation-telf {
+    text-decoration: underline;
+  }
+
+  .input-button{
+    padding: 15px 64px;
+    border-radius: 30px;
+    border: none;
+    background-color:#D5A839;
+    font-size: 20px;
+    cursor: pointer;
+  }
+
   .visith3 {
     text-align: center;
-    font-size: 20px;
+    font-size: 25px;
     font-weight: lighter;
   }
 
   .time-openhour{
     margin-top: -10px;
-    font-weight: lighter;
+    font-size: 16px;
   }
 
   .time-openhour2, .tour-info {
     margin-top: -2px;
-    font-weight: lighter;
+    font-size: 16px;
   }
 
   .visit-p-loction {
@@ -194,10 +256,12 @@ body {
     text-indent: 10px;
     line-height: 1.8;
     font-weight: lighter;
+    font-size: 16px;
    }
 
   .guided-h4 {
     display: none;
+    font-size: 25px;
    }
 
   .contact-h4{
@@ -210,6 +274,7 @@ body {
      text-align: center;
      line-height: 1.5;
      font-weight: lighter;
+     font-size: 16px;
     }
 
   .contact-link{
@@ -234,17 +299,17 @@ body {
 
   .exhibtions-h3{
     text-align: center;
-    font-size: 15px;
+    font-size: 17px;
     white-space: nowrap;
     font-weight: bold;
   }
 
   .exhibtions-p{
-    font-size: 15px;
+    font-size: 16px;
     text-align: center;
     margin-bottom: 20px;
     margin-top: -10px;
-    height: 58px;
+    height: 60px;
     overflow: hidden;
     font-weight: lighter;
   }
@@ -261,6 +326,59 @@ body {
   }
 
 /* main images for all section*/
+
+.about-img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  object-position: 50% 55%;
+}
+
+.about-img-conttainer {
+  height: 200px;
+  margin-top: -30px;
+  padding-bottom: 10px;
+  border-bottom: solid #FFBB00;
+}
+
+.images-kol{
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+  gap: 5px;
+}
+
+.sicence-img{
+  max-width: 100%;
+  height: 210px;
+  border-radius: 8px;
+  padding-top: 20px;
+}
+
+.sicence-img2{
+  width: 200px;
+  max-width: 100%;
+  height: 220px;
+  border-radius: 40px;
+  padding-top: 10px;
+}
+
+.science-container {
+  background-color: #F2F0EB;
+  margin: 5px 5px 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 1rem;
+}
+
+.sciencelink{
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  font-size: 29px;
+  display: block;
+  text-align: center;
+  padding-bottom: 20px;
+  font-weight: lighter;
+}
 
 .contact-form{
   padding: 20px;
@@ -324,7 +442,11 @@ input[type=text1] {
 
 /* main sections and contanier for all section*/
 
-.arrange-reservation {
+.about-us-container {
+  padding: 1rem;
+}
+
+.arrange-reservation, .button-sumit {
   text-align: center;
 }
 
@@ -395,18 +517,18 @@ input[type=text1] {
     padding: 10px 13px 20px;
   }
 
- .footerh2 {
-   text-align: center;
-   color: #000000;
-   font-size: 20px;
-   font-weight:lighter
+.footerh2 {
+  text-align: center;
+  color: #000000;
+  font-size: 20px;
+  font-weight:lighter
   }
 
- .footerh3 {
-   font-size: 13px;
-   color: #000000;
-   text-align: center;
-   font-weight: lighter;
+.footerh3 {
+  font-size: 17px;
+  color: #000000;
+  text-align: center;
+  font-weight: lighter;
  }
 
  .subz-field {
@@ -454,14 +576,14 @@ input[type=text1] {
   }
 
  .h1-info1, .h1-info2{
-   font-size: 19px;
+   font-size: 20px;
    color: #000000;
    font-weight: 400;
   }
 
  .p-info2, .p-info1{
    color: #000000;
-   font-size: 15px;
+   font-size: 16px;
    font-weight: lighter;
   }
 
@@ -552,7 +674,7 @@ input[type=text1] {
   }
   
   .label-for-toggle {
-  display: none;
+   display: none;
    }
 
    nav {
@@ -604,6 +726,10 @@ input[type=text1] {
     margin-top: 50px;
   }
 
+  .arrange-h1 {
+    font-size: 40px;
+  }
+
   .visit-p-loction, .tour-info {
     margin-top: unset;
     padding-bottom: unset;
@@ -644,12 +770,14 @@ input[type=text1] {
     text-align: left;
     text-indent: unset;
     padding-top: 50px;
+    font-size: 18px;
   }
 
   .guided-p2{
     text-align: left;
     margin-top: -110px;
     text-indent: unset;
+    font-size: 18px;
   }
 
   .guided-container {
@@ -660,7 +788,7 @@ input[type=text1] {
 
   .guidemap-img{
     height: 350px;
-    width: 80%;
+    width: 70%;
     margin-bottom: unset;
     margin-top: unset;
   }
@@ -704,15 +832,10 @@ input[type=text1] {
   }
 
   .exhibtions-link1{
-    font-size: 45px;
-    font-weight: lighter;
+    font-size: 40px;
   }
 
   .col-input{
-    width: 60%;
-  }
-
-  .arrange-img {
     width: 60%;
   }
 
@@ -720,6 +843,100 @@ input[type=text1] {
     text-align: center;
   }
 
+  .about-h1 {
+    text-align: unset;
+    font-size: 40px;
+    padding-left: 1rem;
+  }
+  .about-h2 {
+    font-size: 30px;
+  }
+
+  .about-h3 {
+    font-size: 25px;
+  }
+
+  .reservation-h2, .book-h2 {
+    font-size: 29px;
+  }
+
+  .reservation-h3 {
+    font-size: 20px;
+  }
+
+  .reservation-h4, .contact-p {
+    font-size: 18px;
+  }
+
+  .exhibtions-p {
+    font-size: 18px;
+    height: 70px;
+  }
+
+  .about-p {
+    font-size: 18px;
+    width: 75%;
+  }
+
+  .about-p-science {
+    font-size: 18px;
+    text-align: center;
+    min-width: 100px;
+  }
+
+  .opening-info {
+    font-size: 20px;
+    margin: 0 100px 0;
+  }
+
+  .about-img {
+    height: 500px;
+  }
+  
+  .about-img-conttainer {
+    height: 500px;
+    margin-top: -30px;
+  }
+
+  .science-container {
+    width: 650px;
+    height: 460px;
+    text-align: center;
+    margin-top: -30px;
+    margin-right: 60px;
+  }
+
+  .sicence-img{
+    width: unset;
+    max-width: 100%;
+    height: 300px;
+    margin-top: 10px;
+  }
+
+  .sicence-img2{
+    width: unset;
+    max-width: 100%;
+    height: 330px;
+    margin-top: 5px;
+  }
+
+  .about-section {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+  }
+
+  .arrange-img {
+    height: 250px;
+  }
+
+  .guidedinfo {
+    margin: unset;
+  }
+
+  .contact-h4{
+    font-size: 25px;
+  }
+ 
 /* media queries for the footer*/
 
   .footerh2 {
@@ -811,6 +1028,14 @@ input[type=text1] {
    position: relative;
    right: 30px;
   }
+
+  .h1-info1, .h1-info2{
+    font-size: 22px;
+   }
+
+   .p-info2, .p-info1{
+    font-size: 18px;
+   }
    }
 
    @media screen and (max-width: 820px) {

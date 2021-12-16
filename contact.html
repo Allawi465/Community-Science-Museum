@@ -22,7 +22,7 @@
              <input type="checkbox" id="toggle">
             <label class="label-for-toggle" for="toggle"></label>  
              <nav class="menu">
-                 <a href="" class="nav-link">Home</a>
+                 <a href="index.html" class="nav-link">Home</a>
                  <a href="visit.html" class="nav-link">Visit Us</a>
                  <a href="" class="nav-link">Events</a>
                  <a href="" class="nav-link">Exhibitions</a>
@@ -35,17 +35,21 @@
         <h1 class="arrange-h1">Arrange the tour</h1>
         <section class="arrange-contact">
             <div class="arrange-reservation">
-                <h2>Make a reservation with a call</h2>
-                <h3>Book a guided tour with our receptionist</h3>
-                <h4>receptionist  OPENING HOURS</h4>
-                <p>Monday - Friday</p>
-                <p>08 - 19</p>
-                <i class="fas fa-headset"></i>
-                <p>+47 22222222</p>
-                <img src="images/receptionist.jpg" alt="" class="arrange-img">
+                <h2 class="reservation-h2">Make a reservation with a call</h2>
+                <h3 class="reservation-h3">Book a guided tour with our receptionist</h3>
+                <h4 class="reservation-h4">Receptionist opening hours</h4>
+                <div class="opening-info">
+                 <p>Monday - Friday</p>
+                 <p class="reservation-time">08 - 19</p>
+                </div>
+                 <div class="opening-info">
+                  <i class="fas fa-headset fa-3x"></i>
+                  <p class="reservation-telf">+47 22222222</p>
+                </div>
+                <img src="images/receptionist.jpg" alt="a photo a our receptionist" class="arrange-img">
             </div>
             <div class="contact-form">
-                <h2>BOOK YOURSELF</h2>
+                <h2 class="book-h2">BOOK YOURSELF</h2>
                 <form action="/action_page.php" method="post">
                     <div class="row-form">
                         <div class="col-name">
@@ -98,7 +102,9 @@
                         </div>
                     </div>
                     <div class="row-form">
-                        <input type="submit" value="Submit">
+                        <div class="button-sumit">
+                            <input type="Submit" value="Submit" class="input-button">
+                        </div>
                       </div>
                 </form>
             </div>
@@ -127,7 +133,7 @@
         <section class="footer-middle">
             <div class="footer-container">
                 <div class="footer-info1">
-                    <h2 class="h1-info1">Free Entry <i class="fas fa-ticket-alt"></i></h2> 
+                    <h5 class="h1-info1">Free Entry <i class="fas fa-ticket-alt"></i></h5> 
                     <p class="p-info1">Nydalenveien 22</p>
                     <p class="p-info1">0304 Oslo <i class="fas fa-location-arrow"></i></p>
                </div>
@@ -154,8 +160,8 @@
                 </div>
                 <a href="index.html" class="link-logo"> <img src=images/logo.png class="logo-header" alt="a logo for Community Science Museum"></a>
                 <div class="footer-links2">
-                    <a href="" class="footer-links">About Us</a>
-                    <a href="" class="footer-links">Visit Us</a>
+                    <a href="about.html" class="footer-links">About Us</a>
+                    <a href="visit.html" class="footer-links">Visit Us</a>
                     <a href="" class="footer-links">Science</a>
                 </div>
             </div>

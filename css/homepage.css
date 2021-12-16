@@ -183,16 +183,19 @@
 
   .time-openhour{
     margin-top: -10px;
+    font-size: 16px;
   }
 
   .time-openhour2, .tour-info {
     margin-top: -2px;
+    font-size: 16px;
   }
 
   .visit-p-loction {
     text-align: center;
     margin-top: -20px;
     padding-bottom: 20px;
+    font-size: 16px;
   }
 
   .sciencelink{
@@ -222,6 +225,10 @@
     justify-content: space-evenly;
   }
 
+  .guided-h2 {
+    font-size: 29px;
+  }
+
   .event-h2 {
     margin-left: 10px;
     text-decoration: underline;
@@ -237,7 +244,7 @@
   }
 
   .event-time2{
-    margin-left: 15px;
+    margin-left: 16px;
   }
 
   .event-link2{
@@ -264,23 +271,23 @@
     width: 270px;
     margin-top: -5px;
     margin-left: 8px;
-    font-size: 15px;
+    font-size: 16px;
     font-weight: 300;
   }
 
   .exhibtions-h3{
     text-align: center;
-    font-size: 15px;
+    font-size: 17px;
     white-space: nowrap;
     font-weight: bold;
   }
 
   .exhibtions-p{
-    font-size: 15px;
+    font-size: 16px;
     text-align: center;
     margin-bottom: 20px;
     margin-top: -10px;
-    height: 58px;
+    height: 60px;
     overflow: hidden;
   }
 
@@ -300,7 +307,8 @@
   .startimage{
     max-width: 100%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    background-size: cover;
+    object-fit: cover;
+    object-position: 50% 55%;
   }
 
   .sicence-img{
@@ -417,7 +425,7 @@
   }
 
  .footerh3 {
-   font-size: 13px;
+   font-size: 17px;
    color: #000000;
    text-align: center;
    font-weight: lighter;
@@ -475,7 +483,7 @@
 
  .p-info2, .p-info1{
    color: #000000;
-   font-size: 15px;
+   font-size: 16px;
    font-weight: lighter;
   }
 
@@ -503,6 +511,7 @@
   }
 
  .footer-links{
+   font-size: 25px;
    text-decoration: none;
    color: #000000;
   }
@@ -513,10 +522,6 @@
    justify-content:space-between;
    margin-top: 20px;
   }
-
-  .footer-links{
-    font-size: 18px
-   }
 
  .link-logo {
    position: relative;
@@ -653,13 +658,14 @@
   .visit-p-loction, .tour-info {
     margin-top: unset;
     padding-bottom: unset;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: lighter;
   }
 
   .time-openhour, .time-openhour2 {
-    font-size: 18px;
+    font-size: 20px;
     font-weight: lighter;
+    padding-right: 20px;
   }
 
   .science-container {
@@ -724,7 +730,7 @@
   }
 
   .event-h2, .visith3 {
-    font-size: 20px;
+    font-size: 25px;
   }
 
   .exhibtions-section {
@@ -747,6 +753,23 @@
 
   .exhibtions-h3{
     font-size: 20px;
+  }
+
+  .guidedinfo {
+    margin: unset;
+  }
+
+  .event-time{
+    font-size: 22px;
+  }
+
+  .event-time2{
+    margin-left: 19px;
+  }
+
+  .exhibtions-p {
+    font-size: 18px;
+    height: 70px;
   }
 
 /* media queries for the footer*/
@@ -840,4 +863,13 @@
     position: relative;
     right: 30px;
   }
+
+  .p-info2, .p-info1{
+    font-size: 18px;
+   }
+
+   .h1-info1, .h1-info2{
+    font-size: 22px;
+   }
+
    }
