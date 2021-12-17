@@ -927,6 +927,9 @@ input[type=text] {
 
   .arrange-img {
     height: 250px;
+  }
+  
+  .arrange-img2 {
     width: 65%;
   }
 
