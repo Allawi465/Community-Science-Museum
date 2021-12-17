@@ -77,6 +77,10 @@
     font-weight: lighter;
   }
 
+  .nav-link:hover {
+    color: #996100;
+  }
+
   .widt-for-toggle{
     width: 100px;
   }
@@ -163,10 +167,8 @@
     padding: 0.2em;
   }
 
-  .ctalinks{
-    display: block;
-    text-align: center;
-    margin-top: 4px;
+  .cta:hover {
+    background-color: #00000093;
   }
 
   .visith2 {
@@ -306,6 +308,10 @@
     margin: 10px 10px 20px;
   }
 
+  .visith2:hover, .sciencelink:hover, .event-special-link:hover, .exhibtions-link1:hover {
+    text-decoration: underline;
+  }
+
 /* main images for all section*/
 
   .startimage{
@@ -341,6 +347,12 @@
   }
 
 /* main sections and contanier for all section*/
+
+.ctalinks{
+  display: block;
+  text-align: center;
+  margin-top: 4px;
+}
 
  .explore-us-content{
   margin-top: -20px;
