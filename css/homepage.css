@@ -302,14 +302,13 @@
   }
 
   .exhibtions-link2 {
-    font-size: 20px;
+    font-size: 17px;
     text-decoration: none;
     color: #000000;
     border: thin solid #000000;
     padding: 10px 10px 10px;
     display: block;
     text-align: center;
-    margin: 10px 10px 20px;
   }
 
   .visith2:hover, .sciencelink:hover, .event-special-link:hover, .exhibtions-link1:hover {
@@ -419,14 +418,14 @@
    display: flex;
    justify-content: center;
    flex-wrap: wrap;
-   gap: 10px;
+   gap: 16px;
   }
 
   .exhibtions-card {
-    width: 180px;
+    width: 175px;
     height: 380px;
     background-color: #F2F0EB;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.2);
   }
 
 /* style for the footer*/
