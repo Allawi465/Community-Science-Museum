@@ -172,7 +172,9 @@
   }
 
   .cta:hover {
-    background-color: #00000093;
+    background-color: #995905;
+    color: rgb(255, 255, 255);
+    border: none;
   }
 
   .visith2 {
@@ -277,7 +279,6 @@
    }
 
    .info-event{
-    width: 270px;
     margin-top: -5px;
     margin-left: 8px;
     font-size: 16px;
@@ -349,6 +350,10 @@
     height: 200px;
   }
 
+  .sciene-image-singel {
+    display: none;
+  }
+
 /* main sections and contanier for all section*/
 
 .ctalinks{
@@ -412,7 +417,6 @@
     justify-content: center;
     flex-wrap: wrap;
     gap: 40px;
-    margin-bottom: 40px;
    }
 
   .exhibtions-container {
@@ -793,6 +797,15 @@
   .exhibtions-p {
     font-size: 18px;
     height: 70px;
+  }
+
+  .sciene-image-singel {
+    display: unset;
+  }
+
+  .cta:hover {
+    background-color: #00000062;
+    color: #FFBB00;
   }
 
 /* media queries for the footer*/
