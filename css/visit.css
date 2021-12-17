@@ -586,11 +586,12 @@ body {
    font-weight: 400;
   }
 
- .p-info2, .p-info1{
-   color: #000000;
-   font-size: 16px;
-   font-weight: lighter;
-  }
+  .p-info2, .p-info1{
+    color: #000000;
+    font-size: 16px;
+    font-weight: lighter;
+    margin-top: -1px;
+   }
 
  .hours-info {
    display: flex;
@@ -661,7 +662,7 @@ body {
     margin-top: 15px;
   }
 
- @media screen and (min-width: 820px) {
+ @media screen and (min-width: 867px) {
 
  /* media queries for the footer*/
   .navbar {
@@ -839,6 +840,7 @@ body {
 
   .exhibtions-link1{
     font-size: 40px;
+    margin-bottom: 20px;
   }
 
   .col-input{
@@ -905,8 +907,7 @@ body {
   }
 
   .science-container {
-    width: 650px;
-    height: 460px;
+    height: 480px;
     text-align: center;
     margin-top: -30px;
     margin-right: 60px;
@@ -928,7 +929,7 @@ body {
 
   .about-section {
     display: grid;
-    grid-template-columns: 3fr 1fr;
+    grid-template-columns: 3fr 3fr;
   }
 
   .arrange-img {
@@ -990,7 +991,7 @@ body {
   }
 
   .footer-links{
-    font-size: 30px;
+    font-size: 25px;
   }
 
   .link-logo {
@@ -1031,13 +1032,14 @@ body {
 
    .footer-info1{
     position: relative;
-    top: 6px;
-    left: 30px;
-  }
+    bottom: 35px;
+    right: 20px;
+   }
 
-  .footer-info2{
-   position: relative;
-   right: 30px;
+   .footer-info2{
+    position: relative;
+    right: 70px;
+    bottom: 40px;
   }
 
   .h1-info1, .h1-info2{

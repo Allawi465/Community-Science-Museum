@@ -489,6 +489,7 @@
    color: #000000;
    font-size: 16px;
    font-weight: lighter;
+   margin-top: -1px;
   }
 
  .hours-info {
@@ -556,7 +557,7 @@
     margin-top: 15px;
   }
 
- @media screen and (min-width: 820px) {
+ @media screen and (min-width: 867px) {
 
  /* media queries for the footer*/
   .navbar {
@@ -696,6 +697,10 @@
     font-weight: lighter;
   }
 
+  .exhibtions-link1 {
+    margin-bottom: 20px;
+  }
+  
   .event-section{
     margin-bottom: 100px;
   }
@@ -818,7 +823,7 @@
   }
 
   .footer-links{
-    font-size: 30px;
+    font-size: 25px;
   }
 
   .link-logo {
@@ -859,13 +864,14 @@
 
    .footer-info1{
     position: relative;
-    top: 6px;
-    left: 30px;
+    bottom: 35px;
+    right: 20px;
    }
 
    .footer-info2{
     position: relative;
-    right: 30px;
+    right: 75px;
+    bottom: 40px;
   }
 
   .p-info2, .p-info1{
