@@ -12,8 +12,12 @@
 /* style for the header*/
 
  header {
-    height: 19vh;
+    height: 160px;
     align-items: center;
+  }
+
+  .logo-header {
+    height: 120px;
   }
 
   .logo-container{
@@ -355,7 +359,7 @@
 }
 
  .explore-us-content{
-  margin-top: -20px;
+  margin-top: -10px;
  }
 
  .csmcontent-col {
@@ -523,8 +527,8 @@
    justify-content: space-around;
   }
 
-  .logo-header{
-    max-width: 100px;
+  .logo-footer {
+    height: 100px;
   }
 
  .footer-links{
@@ -538,12 +542,11 @@
    flex-direction: column;
    justify-content:space-between;
    margin-top: 20px;
+   height: 200px;
   }
 
  .link-logo {
-   position: relative;
-   top: 40px;
-   height: 200px;
+  padding-top: 18%;
   }
 
  .copiright-footer {
