@@ -700,7 +700,7 @@
   .exhibtions-link1 {
     margin-bottom: 20px;
   }
-  
+
   .event-section{
     margin-bottom: 100px;
   }
@@ -865,12 +865,12 @@
    .footer-info1{
     position: relative;
     bottom: 35px;
-    right: 20px;
+    left: 23px;
    }
 
    .footer-info2{
     position: relative;
-    right: 75px;
+    right: 23px;
     bottom: 40px;
   }
 
