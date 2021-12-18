@@ -267,6 +267,10 @@
     margin-top: -14px;
    }
 
+   .event-link2:hover, .exhibtions-link2:hover, .subz-button:hover, .social-links a:hover {
+     background-color:#FFBB00;
+   }
+
    .event-link {
      text-decoration: none;
      color: #000000;
@@ -532,6 +536,11 @@
    color: #000000;
   }
 
+  .footer-links:hover {
+    text-decoration: underline;
+    
+  }
+
  .footer-links1, .footer-links2 {
    display: flex;
    flex-direction: column;
@@ -793,6 +802,10 @@
   .cta:hover {
     background-color: #00000062;
     color: #FFBB00;
+  }
+
+  .exhibtions-link2 {
+    font-size: 20px;
   }
   
 
