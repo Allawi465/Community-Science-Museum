@@ -421,11 +421,11 @@
    display: flex;
    justify-content: center;
    flex-wrap: wrap;
-   gap: 15px;
+   gap: 8px;
   }
 
   .exhibtions-card {
-    width: 175px;
+    width: 182px;
     height: 380px;
     background-color: #F2F0EB;
   }
