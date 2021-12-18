@@ -499,12 +499,7 @@
    font-size: 19px;
    color: #000000;
    font-weight: 400;
-  }
-
- .p-info2, .p-info1, {
-   color: #000000;
-   font-size: 16px;
-   margin-top: -1px;
+   margin-bottom: -2px;
   }
 
   .p-info3 {
@@ -516,12 +511,12 @@
    display: flex;
    flex-wrap:nowrap;
    justify-content: space-around;
-   margin-top: -20px;
+   height: 35px;
   }
 
  .footer-container, .footer-container2 {
    display: flex;
-   flex-wrap: nowrap;
+   flex-wrap: wrap;
    justify-content: space-around;
   }
 
@@ -564,10 +559,6 @@
   .border-bottom2{
    border-bottom: solid 1px rgb(0, 0, 0);
    margin: 10px 10px 20px;
-  }
-
-  .footer-info1{
-    margin-top: 15px;
   }
 
  @media screen and (min-width: 867px) {

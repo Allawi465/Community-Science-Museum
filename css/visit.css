@@ -599,16 +599,16 @@ header {
    color: #FFBB00;
   }
 
- .h1-info1, .h1-info2{
-   font-size: 20px;
-   color: #000000;
-   font-weight: 400;
-  }
+  .h1-info1, .h1-info2{
+    font-size: 19px;
+    color: #000000;
+    font-weight: 400;
+    margin-bottom: -2px;
+   }
 
   .p-info2, .p-info1{
     color: #000000;
     font-size: 16px;
-    margin-top: -1px;
    }
 
    .p-info3 {
@@ -616,16 +616,16 @@ header {
     font-size: 16px;
   }
 
- .hours-info {
-   display: flex;
-   flex-wrap:nowrap;
-   justify-content: space-around;
-   margin-top: -20px;
-  }
+  .hours-info {
+    display: flex;
+    flex-wrap:nowrap;
+    justify-content: space-around;
+    height: 35px;
+   }
 
  .footer-container, .footer-container2 {
    display: flex;
-   flex-wrap: nowrap;
+   flex-wrap: wrap;
    justify-content: space-around;
   }
 
@@ -674,9 +674,6 @@ header {
    margin: 10px 10px 20px;
   }
 
-  .footer-info1{
-    margin-top: 15px;
-  }
 
  @media screen and (min-width: 867px) {
 
@@ -880,7 +877,7 @@ header {
     font-size: 29px;
   }
 
-  .reservation-h3, {
+  .reservation-h3 {
     font-size: 20px;
   }
 
