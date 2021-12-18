@@ -319,7 +319,6 @@
 
   .startimage{
     max-width: 100%;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     object-fit: cover;
     object-position: 50% 55%;
   }
@@ -418,14 +417,13 @@
    display: flex;
    justify-content: center;
    flex-wrap: wrap;
-   gap: 16px;
+   gap: 15px;
   }
 
   .exhibtions-card {
     width: 175px;
     height: 380px;
     background-color: #F2F0EB;
-    box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.2);
   }
 
 /* style for the footer*/
