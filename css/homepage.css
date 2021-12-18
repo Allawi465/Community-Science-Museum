@@ -23,7 +23,6 @@
   .logo-container{
     position: relative;
     right: 50px;
-    
   }
 
  .navbar--bg {
@@ -226,8 +225,9 @@
     text-align: center;
     font-size: 29px;
     color: #000000;
-    margin-top: 40px;
     font-weight: lighter;
+    margin-bottom: 20px;
+    margin-top: 50px;
   }
 
   .info-with-link {
@@ -382,14 +382,13 @@
     background-color: #F2F0EB;
     margin: 5px 5px 5px;
     margin-top: -4px;
-    margin-bottom: 50px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin-top: 10px;
   }
 
   .science-container {
     background-color: #F2F0EB;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    margin-bottom: 50px;
   }
 
   .images-kol{
@@ -611,10 +610,6 @@
 
 /* media queries for the main*/
 
-  .explore-us-content{
-    margin-top: -50px;
-  }
-
   .csmcontent-col {
     margin: 10px 150px 20px;
   }
@@ -648,7 +643,6 @@
   }
 
   .visit-section{
-    margin-top: -60px;
     margin-bottom: 100px;
   }
 
@@ -800,6 +794,7 @@
     background-color: #00000062;
     color: #FFBB00;
   }
+  
 
 /* media queries for the footer*/
 
