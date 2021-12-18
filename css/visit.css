@@ -235,7 +235,6 @@ header {
 
   .input-button:hover {
     background-color: #997929;
-
   }
 
   .visith3 {
@@ -247,6 +246,7 @@ header {
   .time-openhour{
     margin-top: -10px;
     font-size: 16px;
+    padding-left: 28px;
   }
 
   .time-openhour2, .tour-info {
@@ -608,9 +608,13 @@ header {
   .p-info2, .p-info1{
     color: #000000;
     font-size: 16px;
-    font-weight: lighter;
     margin-top: -1px;
    }
+
+   .p-info3 {
+    padding-left: 19px;
+    font-size: 16px;
+  }
 
  .hours-info {
    display: flex;
@@ -619,15 +623,9 @@ header {
    margin-top: -20px;
   }
 
- .footer-container {
+ .footer-container, .footer-container2 {
    display: flex;
    flex-wrap: nowrap;
-   justify-content: space-around;
-  }
-
- .footer-container2 {
-   display: flex;
-   flex-wrap: wrap;
    justify-content: space-around;
   }
 
@@ -1061,7 +1059,7 @@ header {
     font-size: 22px;
    }
 
-   .p-info2, .p-info1{
+   .p-info2, .p-info1, .p-info3{
     font-size: 18px;
    }
 
