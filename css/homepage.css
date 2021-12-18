@@ -461,7 +461,7 @@
    height: 27px;
    border: 0;
    cursor: pointer;
-   color: rgb(0, 0, 0);
+   background-color: transparent;
    outline: solid 1px rgb(255, 255, 255);
   }
 
