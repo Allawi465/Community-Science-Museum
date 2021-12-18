@@ -126,7 +126,7 @@ header {
  #toggle:checked ~ .label-for-toggle::before {
     background-color: rgb(0, 0, 0);
     transform: rotateZ(45deg);
-    left: 25%; rotateZ(0deg);
+    left: 25%; 
     transform-origin: left top;
     height: 0.2em;
     width: 4em;
@@ -141,7 +141,7 @@ header {
  #toggle:checked ~ .label-for-toggle::after {
     background-color: rgb(0, 0, 0);
     transform: rotateZ(-45deg);
-    left: 25%; rotateZ(0deg);
+    left: 25%; 
     bottom: -13px;
     transform-origin: left bottom;
     height: 0.2em;
@@ -564,13 +564,14 @@ header {
    color: rgb(0, 0, 0);
   }
 
- .subz-button{
-   width: 80px;
-   border: 0;
-   cursor: pointer;
-   color: rgb(0, 0, 0);
-   outline: solid 1px rgb(255, 255, 255);
-  }
+  .subz-button{
+    width: 80px;
+    height: 27px;
+    border: 0;
+    cursor: pointer;
+    background-color: transparent;
+    outline: solid 1px rgb(255, 255, 255);
+   }
 
  .subscribe {
    display: flex;
