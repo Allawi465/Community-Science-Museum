@@ -305,18 +305,18 @@
     overflow: hidden;
   }
 
-  .exhibtions-link2 {
-    font-size: 17px;
-    text-decoration: none;
-    color: #000000;
-    border: thin solid #000000;
-    padding: 10px 10px 10px;
-    display: block;
-    text-align: center;
+.exhibtions-link2 {
+  font-size: 17px;
+  text-decoration: none;
+  color: #000000;
+  border: thin solid #000000;
+  padding: 10px 10px 10px;
+  display: block;
+  text-align: center;
   }
 
-  .visith2:hover, .sciencelink:hover, .event-special-link:hover, .exhibtions-link1:hover {
-    text-decoration: underline;
+.visith2:hover, .sciencelink:hover, .event-special-link:hover, .exhibtions-link1:hover, .footer-links:hover {
+  text-decoration: underline;
   }
 
 /* main images for all section*/
@@ -534,11 +534,6 @@
    font-size: 20px;
    text-decoration: none;
    color: #000000;
-  }
-
-  .footer-links:hover {
-    text-decoration: underline;
-    
   }
 
  .footer-links1, .footer-links2 {
@@ -856,7 +851,8 @@
 
   .link-logo {
     position: relative;
-    bottom: 50x; right: 40px;
+    top: 50px; right: 40px;
+    padding-top: unset;
   }
 
   .copiright-footer {

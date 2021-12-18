@@ -233,6 +233,11 @@ header {
     margin-top: 20px;
   }
 
+  .input-button:hover {
+    background-color: #997929;
+
+  }
+
   .visith3 {
     text-align: center;
     font-size: 20px;
@@ -290,13 +295,21 @@ header {
     }
 
   .contact-link{
-      text-decoration: none;
-      color: #000000;
-      font-size: 30px;
-      text-transform:capitalize;
-      border: thin solid #FFBB00;
-      padding: 0.2em;
-    }
+    text-decoration: none;
+    color: #000000;
+    font-size: 30px;
+    text-transform:capitalize;
+    border: thin solid #FFBB00;
+    padding: 0.2em;
+   }
+
+  .contact-link:hover, .exhibtions-link2:hover, .subz-button:hover, .social-links a:hover {
+    background-color: #FFBB00;
+  }
+
+  .exhibtions-link1:hover, .footer-links:hover, .sciencelink:hover  {
+    text-decoration: underline;
+  }
 
   .exhibtions-link1 {
     text-decoration: none;
@@ -997,7 +1010,8 @@ header {
 
   .link-logo {
     position: relative;
-    bottom: 50x; right: 40px;
+    top: 50px; right: 40px;
+    padding-top: unset;
   }
 
   .copiright-footer {
