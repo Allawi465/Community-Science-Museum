@@ -199,21 +199,21 @@
     text-decoration: none;
     color: rgb(0, 0, 0);
     font-size: 29px;
-    display: block;
-    text-align: center;
     padding-bottom: 20px;
     font-weight: lighter;
+    text-align: center;
+    display: block;
   }
 
-  .event-special-link, .exhibtions-link1 {
-    text-decoration: none;
-    display: block;
-    text-align: center;
-    font-size: 29px;
-    color: #000000;
-    font-weight: lighter;
-    margin-bottom: 20px;
-    margin-top: 50px;
+.event-special-link, .exhibtions-link1 {
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  font-size: 29px;
+  color: #000000;
+  font-weight: lighter;
+  margin-bottom: 20px;
+  margin-top: 50px;
   }
 
   .info-with-link {
@@ -301,7 +301,7 @@
   text-align: center;
 }
 
-.visith2:hover, .event-special-link:hover, .exhibtions-link1:hover {
+.visith2:hover {
   color: #8C6700;
 }
 
@@ -387,7 +387,6 @@ section{
 
 .images-kol{
   display: flex;
-  text-align: center;
   justify-content: space-around;
   padding: 1rem;
   gap: 20px;
