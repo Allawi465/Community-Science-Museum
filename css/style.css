@@ -2,7 +2,6 @@ body {
   min-height: 100vh;
   margin: 0;
   font-family: 'Sora', sans-serif;
-  font-style: italic;
 }
 
 .contact-body{
@@ -329,6 +328,8 @@ nav {
 .visith2 {
   color: #000000;
   font-size: 29px;
+  text-align: center;
+  font-weight: lighter;
 }
 
 .visith3 {
@@ -366,6 +367,7 @@ nav {
   color: rgb(0, 0, 0);
   font-size: 29px;
   font-weight: lighter;
+  display: inline-block;
 }
 
 .event-special-link, .exhibtions-link1 {
@@ -512,12 +514,12 @@ nav {
 }
 
 .guidemap-img{
-    height: 350px;
-    width: 100%;
-    text-align: center;
-    margin-top: -30px;
-    margin-bottom: -60px;
-  }
+  height: 350px;
+  width: 100%;
+  text-align: center;
+  margin-top: -30px;
+  margin-bottom: -60px;
+}
 
 .arrange-img, .arrange-img2 {
   width: 100%;
@@ -564,7 +566,7 @@ nav {
 
 .science-container {
   background-color: #F2F0EB;
-  margin: 5px 5px 5px;
+  margin: 0 5px 5px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   padding: 1rem;
 }
@@ -687,11 +689,6 @@ section{
 .visit-container {
   background-color: #F2F0EB;
   margin: 5px 5px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-}
-
-.science-container {
-  background-color: #F2F0EB;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
@@ -898,9 +895,6 @@ footer {
     text-align: unset;
   }
 
-  .visit-section{
-    margin-bottom: 100px;
-  }
 
   .visit-container {
     display: flex;
@@ -916,8 +910,7 @@ footer {
   .visith2 {
     font-size: 45px;
     margin-left: 145px;
-    height: px;
-    font-weight: lighter;
+    text-align: unset;
   }
 
   .visit-p-loction, .tour-info {
@@ -967,13 +960,13 @@ footer {
 
   .events-container {
     gap: 110px;
-   }
+  }
 
-   .event-special-link {
+  .event-special-link {
     text-align: left;
     font-size: 46px;
     margin-bottom: 20px;
-    margin-left: 140px;
+    padding-left: 8%;
     font-weight: lighter;
   }
 
@@ -1219,12 +1212,6 @@ footer {
     margin-top: -20px;
   }
 
-  .science-container {
-    height: 520px;
-    text-align: center;
-    margin-top: -30px;
-    margin-right: 60px;
-  }
 
   .sicence-img{
     width: unset;
