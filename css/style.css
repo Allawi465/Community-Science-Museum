@@ -430,9 +430,6 @@ nav {
   object-position: 50% 55%;
 }
 
-.sciene-image-singel {
-  display: none;
-}
 
 .about-img-conttainer {
   height: 200px;
@@ -444,7 +441,6 @@ nav {
 .images-kol{
   display: flex;
   justify-content: space-evenly;
-  text-align: center;
   gap: 20px;
   padding: 1rem;
 }
