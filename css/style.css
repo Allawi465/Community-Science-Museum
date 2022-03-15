@@ -12,6 +12,10 @@ body {
   font-weight: bolder;
 }
 
+main {
+  width: 1020px 0;
+}
+
 /* style for the header*/
 
 header {
@@ -20,10 +24,10 @@ header {
 
 .logo-header {
   height: 90px;
+  margin-right: 35px;
 }
 
 .kol-head_content {
-  height: 100%;
   display: flex;
   align-items: center;
   box-sizing: border-box;
@@ -36,7 +40,7 @@ header {
   font-size: 15px;
   width: 100px;
   font-weight: normal;
-  margin-left: 25px;
+  margin-left: 35px;
 }
 
 .csmcontent-col {
@@ -45,26 +49,24 @@ header {
 
 nav {
   position: absolute;
-  right: 0px;
-  height: 60vh;
   top: 120px;
   background-color: #F2F0EB;
-  display: flex;
+  display: none;
   flex-direction: column;
   align-items: center;
-  width: 50%;
-  transform: translateX(100%);
+  width: 100%;
   transition: transform 0.5s ease-in;
 }
 
 .aktiv {
-  transform: translateX(0%);
+  display: flex;
+  color: #000000;
 }
   
 .nav-link {
   padding: 16px 0;
   color: #000000;
-  margin-top: 50px;
+  margin-top: 25px;
   font-weight: lighter;
   opacity: 0;
 }
@@ -84,14 +86,22 @@ nav {
 .hamburger {
   display: block;
   cursor: pointer;
-  margin-right: 50px;
+  margin-right: 15px;
 }
 
 /* main font-Syle for the h1, h2, h3 and links cta-buttons*/
+
 .about-h1 {
-  text-align: center;
   font-size: 30px;
-  font-weight: lighter;
+  font-weight: bolder;
+  position: absolute;
+  color: white;
+  left: 25%; right: 25%; top: 20%;
+  text-align: center;
+}
+
+.h1Display {
+  opacity: 0;
 }
 
 .arrange-h1 {
@@ -116,10 +126,16 @@ nav {
 .about-h3 {
   font-size: 20px;
   font-weight: lighter;
+  text-align: center;
+}
+
+.about-p1 {
+  font-size: 16px;
 }
 
 .about-p {
   font-size: 16px;
+  text-align: center;
 }
 
 .about-p-science {
@@ -251,9 +267,9 @@ nav {
 }
 
 .mainh1{
-  font-size: 25px;
+  font-size: 22px;
   text-align: center;
-  font-weight: lighter;
+  font-weight: 400;
   color: #000000;
   text-transform: uppercase;
 }
@@ -426,7 +442,6 @@ nav {
 
 .about-img-conttainer {
   height: 200px;
-  margin-top: -30px;
   padding-bottom: 10px;
   border-bottom: solid #FFBB00;
 }
@@ -549,6 +564,7 @@ nav {
 
 .about-us-container {
   padding: 1rem;
+  text-align: center;
 }
 
 .arrange-reservation, .button-sumit {
@@ -738,13 +754,17 @@ footer {
   display: none;
  }
 
+ .logo-header {
+  height: 100px;
+  margin-right: unset;
+}
+
   .logo-container {
     margin: 20px;
   }
 
   .p-header{
     font-size: 20px;
-    width: unset;
   }
 
   nav {
@@ -931,7 +951,7 @@ footer {
   }
 
   .kol-head_content {
-    justify-content: space-around;
+    justify-content: space-evenly;
     position: static;
   }
 
@@ -1083,12 +1103,28 @@ footer {
   }
 
   .about-h1 {
-    text-align: unset;
-    font-size: 40px;
-    padding-left: 1rem;
+    font-size: 50px;
+    font-weight: bolder;
+    left: 25%; right: 25%; top: 25%;
   }
+
+  .display {
+    display: none;
+    opacity: 0;
+  }
+
+
+
   .about-h2 {
     font-size: 30px;
+  }
+
+  .about-p1 {
+    font-size: 18px;
+  }
+
+  .aboutp-container {
+    margin: 10px 350px 10px;
   }
 
   .about-h3, .visith3 {
@@ -1109,7 +1145,6 @@ footer {
 
   .about-p {
     font-size: 18px;
-    width: 75%;
   }
 
   .about-p-science {
@@ -1129,7 +1164,7 @@ footer {
   
   .about-img-conttainer {
     height: 500px;
-    margin-top: -20px;
+    position: relative;
   }
 
 
@@ -1148,8 +1183,7 @@ footer {
   }
 
   .about-section {
-    display: grid;
-    grid-template-columns: 3fr 3fr;
+    display: flex;
   }
 
   .arrange-img {
