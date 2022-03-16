@@ -24,10 +24,10 @@ header {
 
 .logo-header {
   height: 90px;
-  margin-right: 35px;
 }
 
 .kol-head_content {
+  position: relative;
   display: flex;
   align-items: center;
   box-sizing: border-box;
@@ -65,6 +65,7 @@ nav {
   
 .nav-link {
   padding: 16px 0;
+  margin-left: 90px;
   color: #000000;
   margin-top: 25px;
   font-weight: lighter;
@@ -98,6 +99,7 @@ nav {
   color: white;
   left: 25%; right: 25%; top: 20%;
   text-align: center;
+  display: none;
 }
 
 .h1Display {
@@ -436,9 +438,8 @@ nav {
   width: 100%;
   height: 200px;
   object-fit: cover;
-  object-position: 50% 55%;
+  object-position: 40% 60%;
 }
-
 
 .about-img-conttainer {
   height: 200px;
@@ -756,12 +757,10 @@ footer {
 
  .logo-header {
   height: 100px;
+  padding-left: 100px;
   margin-right: unset;
 }
 
-  .logo-container {
-    margin: 20px;
-  }
 
   .p-header{
     font-size: 20px;
@@ -770,28 +769,22 @@ footer {
   nav {
     display: initial;
     position: static;
-    width: unset;
-    padding: unset;
-    position: unset;
-    right: unset;
-    height: unset;
-    top: unset;
-    background-color: unset;
+    padding: 1rem;
     display: unset;
-    flex-direction: unset;
-    align-items: unset;
     width: unset;
     transform: unset;
+    white-space: wrap;
   }
 
   .nav-link {
     text-decoration: none;
-    border-bottom: none;
-    margin-right: 60px;
+    margin-right: unset;
     font-weight: lighter;
     font-size: 18px;
+    padding-right: 20px;
     color: #000000;
     opacity: unset;
+
   }
 
   /* media queries for the main*/
@@ -951,7 +944,7 @@ footer {
   }
 
   .kol-head_content {
-    justify-content: space-evenly;
+    justify-content: space-between;
     position: static;
   }
 
@@ -1106,6 +1099,7 @@ footer {
     font-size: 50px;
     font-weight: bolder;
     left: 25%; right: 25%; top: 25%;
+    display: unset;
   }
 
   .display {
@@ -1159,11 +1153,11 @@ footer {
   }
 
   .about-img {
-    height: 500px;
+    height: 450px;
   }
   
   .about-img-conttainer {
-    height: 500px;
+    height: 450px;
     position: relative;
   }
 
