@@ -70,6 +70,7 @@ nav {
   margin-top: 25px;
   font-weight: lighter;
   opacity: 0;
+  transition: transform 0.5s ease-in;
 }
 
 .nav-link:hover {
