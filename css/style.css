@@ -11,7 +11,6 @@ body {
   font-weight: bolder;
 }
 
-
 /* style for the header*/
 
 header {
@@ -19,7 +18,8 @@ header {
 }
 
 .logo-header {
-  height: 90px;
+  height: 80px;
+  width: 90px;
 }
 
 .kol-head_content {
@@ -29,43 +29,50 @@ header {
   box-sizing: border-box;
   justify-content: space-between;
   height: 120px;
-  background: #F2F0EB;
+  background: #1E2D40;
 }
 
 .p-header{
   font-size: 15px;
-  width: 100px;
+  width: 90px;
   font-weight: normal;
-  margin-left: 35px;
+  margin-left: 20px;
+  color: white;
 }
 
-.csmcontent-col {
-  padding: 0.1rem;
+.explore-div {
+  padding: 0.2rem;
 }
 
 nav {
   position: absolute;
   top: 110px;
-  background-color: #F2F0EB;
+  background-color: #1E2D40;
   display: none;
   flex-direction: column;
   align-items: center;
   width: 100%;
   transition: transform 0.5s ease-in;
-  height: 52vh;
+  border-bottom: #996100 2px solid;
 }
 
 .aktiv {
   display: flex;
-  color: #000000;
+}
+
+nav ul {
+  border: none;
+}
+
+nav li {
+  display: block;
+  padding: 16px 0;
 }
   
 .nav-link {
+  color: #ffffff;
   text-decoration: none;
-  padding: 16px 0;
-  margin-left: 70px;
-  color: #000000;
-  margin-top: 25px;
+  margin-left: 25px;
   font-weight: lighter;
   opacity: 0;
   transition: transform 0.5s ease-in;
@@ -79,7 +86,7 @@ nav {
 .hamburger div{
   width: 25px;
   height: 3px;
-  background-color: black;
+  background-color: rgb(255, 255, 255);
   margin: 5px;
   transition: all 0.3s ease;
 }
@@ -87,7 +94,7 @@ nav {
 .hamburger {
   display: block;
   cursor: pointer;
-  margin-right: 35px;
+  margin-right: 45px;
 }
 
 /* main font-Syle for the h1, h2, h3 and links cta-buttons*/
@@ -269,11 +276,15 @@ nav {
 }
 
 .mainh1{
-  font-size: 22px;
+  font-size: 20px;
   text-align: center;
   font-weight: 400;
   color: #000000;
-  text-transform: uppercase;
+}
+
+.mainP {
+  text-align: center;
+  font-size: 30px;
 }
 
 .cta{
@@ -480,7 +491,7 @@ nav {
   max-width: 100%;
   object-fit: cover;
   object-position: 50% 55%;
-  margin-top: -20px;
+  position: relative;
 }
 
 .sicence-img{
@@ -488,7 +499,6 @@ nav {
   border-radius: 40px;
   padding-top: 20px;
   object-fit: cover;
-  
 }
 
 .sicence-img2{
@@ -757,24 +767,34 @@ footer {
 
  .logo-header {
   height: 100px;
-  padding-left: 100px;
-  margin-right: unset;
-}
+  width: unset;
+ }
 
 
   .p-header{
     font-size: 20px;
+    width: 150px;
+    position: relative;
+    left: 60px;
   }
 
   nav {
-    display: initial;
+    display: flex;
     position: static;
-    padding: 1rem;
-    display: unset;
     width: unset;
-    transform: unset;
-    white-space: wrap;
-    height: unset;
+    border-bottom: unset;
+    background-color: unset;
+  }
+
+  nav ul {
+    display: flex;
+    border: none;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+  
+  nav li {
+    padding: unset;
   }
 
   .nav-link {
@@ -783,9 +803,14 @@ footer {
     font-weight: lighter;
     font-size: 18px;
     padding-right: 20px;
-    color: #000000;
+    color: #ffffff;
     opacity: unset;
 
+  }
+
+  .logo-container {
+    display: flex;
+    padding-left: 320px;
   }
 
   /* media queries for the main*/
@@ -796,22 +821,19 @@ footer {
     margin-top: 6px;
   }
 
-  .csmcontent-col {
-    position: relative;
+  .explore-div {
+    padding: 0.3rem;
   }
 
   .startimage{
     object-fit: cover;
-    height: 520px;
+    height: 420px;
     width: 100%;
     margin-top: unset;
   }
 
   .mainh1{
-    width: 20px;
-    position: absolute;
-    left: 22%; top: 10%;
-    font-size: 60px;
+    font-size: 30px;
     font-weight: bolder;
     color: #000000;
     text-transform: uppercase;
@@ -827,9 +849,9 @@ footer {
 
   .ctalinks {
     position: absolute;
-    top: 40%; left: 50%; 
+    top: 45%; left: 50%; 
+    transform: translateX(-50%);
     display: unset;
-    text-align: unset;
   }
 
   .visit-kol{
@@ -942,11 +964,6 @@ footer {
     width: 247px;
     height: 400px;
     background-color: #F2F0EB;
-  }
-
-  .kol-head_content {
-    justify-content: space-between;
-    position: static;
   }
 
   .exhibtions-h3{
@@ -1298,10 +1315,12 @@ footer {
 
 .burger .first {
   transform: rotate(-45deg) translate(-5px, 6px);
+  background-color: white;
 }
 .burger .second {
   opacity: 0;
 }
 .burger .third {
   transform: rotate(45deg) translate(-5px, -6px);
+  background-color: white;
 }
