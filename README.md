@@ -4,7 +4,7 @@
 
 This is a semester project 1 final delivery. 
 
-The project was to crate a informative and appealing website to attract and visit the museum.
+The project was to crate a informative and appealing website to attract viewers and encourage them to visit the museum.
 
 The website have four page
 
@@ -47,6 +47,8 @@ npm run start
 ```
 
 ## Contributing
+
+If you have a suggestion that would make the site better, please fork the repo and create a pull request. Don't forget to give the project a star! Thanks again!
 
 Here you can detail any information you want to provide regarding contributing to the project. For big projects you will usually have a separate `CONTRIBUTING.md` and link to it, but for smaller projects you can simply include instructions here. These instructions can simply detail the process you want a person to take, such as to make sure to open a pull request so code can be reviewed.
 
