@@ -1,34 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="noroff Science Museum" content="Community Science Museum home page">
+    <title>Community Science Museum - contact page for Community Science Museum</title>
+    <meta name="description" content="This is the contact page for Community Science Museum">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Community Science Museum</title>
-    <link rel="stylesheet" href="css\visit.css">
     <script src="https://kit.fontawesome.com/a2e814cf6f.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Hotjar Tracking Code for https://upbeat-allen-6fea03.netlify.app/ -->
+<script>
+    (function(h,o,t,j,a,r){
+        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+        h._hjSettings={hjid:2862122,hjsv:6};
+        a=o.getElementsByTagName('head')[0];
+        r=o.createElement('script');r.async=1;
+        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+        a.appendChild(r);
+    })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+</script>
 </head>
 <body class="contact-body">
     <header>
-        <div class="navbar navbar--bg">
-            <div class="navbar__content navbar-centered">
-                <p class="p-header">Community Science Museum</p>
-                <div class="logo-container">
-                    <a href="index.html" class="logo-header"> <img src=images/logo.png  alt="a logo for Community Science Museum"></a>
-                </div>
-             <input type="checkbox" id="toggle">
-            <label class="label-for-toggle" for="toggle"></label>  
-             <nav class="menu">
-                 <a href="index.html" class="nav-link">Home</a>
-                 <a href="visit.html" class="nav-link">Visit Us</a>
-                 <a href="" class="nav-link">Events</a>
-                 <a href="" class="nav-link">Exhibitions</a>
-                 <a href="" class="nav-link">Search</a>
-             </nav>
+        <div class="kol-head_content">
+            <h1 class="p-header">Community Science Museum</h1> 
+            <div class="logo-container">
+                <a href="index.html" class="logo-header"><img src=images/logo.png  class="logo-header" alt="a logo for Community Science Museum" ></a>
             </div>
+            <div class="hamburger">
+                <div class="first"></div>
+                <div class="second"></div>
+                <div class="third"></div>
+            </div>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="index.html" class="nav-link" id="aktiv">Home</a>
+                    </li>
+                    <li>
+                        <a href="visit.html" class="nav-link">Visit Us</a>
+                    </li>
+                    <li>
+                        <a href="contact.html" class="nav-link">Book Tour</a>
+                    </li>
+                    <li>
+                        <a href="about.html" class="nav-link">About Us</a>
+                    </li>
+                </ul>
+            </nav>
         </div>
     </header>
     <main>
@@ -46,62 +66,61 @@
                   <i class="fas fa-headset fa-3x"></i>
                   <p class="reservation-telf">+47 22222222</p>
                 </div>
-                <img src="images/receptionist.jpg" alt="a photo a our receptionist" class="arrange-img">
+                <img src="images/receptionist.jpg" alt="a photo a our receptionist" class="arrange-img2">
             </div>
             <div class="contact-form">
                 <h2 class="book-h2">BOOK YOURSELF</h2>
                 <form action="/action_page.php" method="post">
-                    <div class="row-form">
-                        <div class="col-name">
+                    <div class="form-arrang">
+                        <div class="name">
                          <label for="first-name" class="label-name">First Name</label>
                         </div>
-                        <div class="col-input">
-                          <input type="text1" id="first-name" name="first-name" placeholder="Your name..">
+                        <div class="arrang-input">
+                          <input type="text" id="first-name" name="first-name" placeholder="Your name..">
                         </div>
                     </div>
-                    <div class="row-form">
-                        <div class="col-name">
+                    <div class="form-arrang">
+                        <div class="name">
                          <label for="last-name" class="label-name">Last Name</label>
                         </div>
-                        <div class="col-input">
-                          <input type="text1" id="last-name" name="last-name" placeholder="Your last name..">
+                        <div class="arrang-input">
+                          <input type="text" id="last-name" name="last-name" placeholder="Your last name..">
                         </div>
                     </div>
-                    <div class="row-form">
-                        <div class="col-name">
+                    <div class="form-arrang">
+                        <div class="name">
                          <label for="email" class="label-name">E-mail</label>
                         </div>
-                        <div class="col-input">
-                          <input type="text1" id="e-mail" name="e-mail" placeholder="Your E-mail..">
+                        <div class="arrang-input">
+                          <input type="text" id="email" name="e-mail" placeholder="Your E-mail..">
                         </div>
                     </div>
-                    <div class="row-form">
-                        <div class="col-name">
+                    <div class="form-arrang">
+                        <div class="name">
                          <label for="phone" class="label-name">Phone Number</label>
                         </div>
-                        <div class="col-input">
-                          <input type="text1" id="phone" name="phone" placeholder="Your phone number..">
+                        <div class="arrang-input">
+                          <input type="text" id="phone" name="phone" placeholder="Your phone number..">
                         </div>
                     </div>
-                    <div class="row-form">
-                        <div class="col-name">
+                    <div class="form-arrang">
+                        <div class="name">
                          <label for="guests" class="label-name">#of Guests</label>
                         </div>
-                        <div class="col-input">
-                          <input type="text1" id="guests" name="guests" placeholder="How many in a group..">
+                        <div class="arrang-input">
+                          <input type="text" id="guests" name="guests" placeholder="How many in a group..">
                         </div>
                     </div>
-                    <div class="row-form">
-                        <div class="col-name">
-                         <label for="DATE & TIME" class="label-name">Date & Time</label>
+                    <div class="form-arrang">
+                        <div class="name">
+                         <label for="date" class="label-name">Date & Time</label>
                         </div>
-                        <div class="col-input">
-                            <input type="datetime-local" id="meeting-time"
-                            name="meeting-time" value="2018-06-12T19:30"
-                            min="2021-0614.12-07T00:00" max="2021-06-14T00:00">
+                        <div class="arrang-input">
+                            <input type="datetime-local" id="date"
+                            name="datetime" min="2021-01-18T09:00" max="2021-06-14T18:00">
                         </div>
                     </div>
-                    <div class="row-form">
+                    <div class="form-arrang">
                         <div class="button-sumit">
                             <input type="Submit" value="Submit" class="input-button">
                         </div>
@@ -111,25 +130,6 @@
         </section>
     </main>
     <footer>
-        <Section class="footer-first">
-             <h3 class="footerh2">Connect with us</h3>
-             <h4 class="footerh3">Enter your email address to receive our newsletter</h4>
-            <div class="footer-container3">
-                <div class="footer-nav1">
-                 <div class="subscribe">
-                    <input type="text" class="subz-field">
-                    <button class="subz-button">Sign up</button>
-                 </div>
-                 <span class="social-links">
-                    <a href=""><i class="fab fa-twitter"></i></a>
-                    <a href=""><i class="fab fa-youtube"></i></a>
-                    <a href=""><i class="fab fa-facebook"></i></a>
-                    <a href=""><i class="fab fa-instagram"></i></a>
-                 </span>
-                 </div>
-                </div>
-        </Section>
-        <div class="border-bottom"></div>
         <section class="footer-middle">
             <div class="footer-container">
                 <div class="footer-info1">
@@ -144,25 +144,23 @@
                     <p class="p-info2">08 - 19</p>
                    </div>
                    <div class="hours-info">
-                    <p class="p-info2">Saturday - Sunday</p>
-                    <p class="p-info2">10 - 18</p>
+                    <p class="p-info3">Saturday</p>
+                    <p class="p-info3">10 - 18</p>
                    </div>
                </div>
             </div>
-        </section>
-        <div class="border-bottom2"></div>
-        <section class="footer-last"> 
+            <div class="border-bottom2"></div>
             <div class="footer-container2">
                 <div class="footer-links1">
                     <a href="" class="footer-links">Support</a>
                     <a href="" class="footer-links">Volunteer</a>
                     <a href="" class="footer-links">Internships</a>
                 </div>
-                <a href="index.html" class="link-logo"> <img src=images/logo.png class="logo-header" alt="a logo for Community Science Museum"></a>
+                <a href="contact.html" class="link-logo"> <img src=images/logo.png class="logo-footer" alt="a logo for Community Science Museum"></a>
                 <div class="footer-links2">
                     <a href="about.html" class="footer-links">About Us</a>
                     <a href="visit.html" class="footer-links">Visit Us</a>
-                    <a href="" class="footer-links">Science</a>
+                    <a href="contact.html" class="footer-links">Book Tour</a>
                 </div>
             </div>
             <div class="copiright-footer">
@@ -170,5 +168,6 @@
             </div>
         </section>
     </footer>
+    <script src="js/menu.js"></script>
 </body>
 </html>

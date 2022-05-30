@@ -1,48 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="noroff Science Museum" content="Community Science Museum home page">
+    <title>Community Science Museum - homepage for Community Science Museum</title>
+    <meta name="description" content="This is the home page for Community Science Museum">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Community Science Museum</title>
-    <link rel="stylesheet" href="css\homepage.css">
     <script src="https://kit.fontawesome.com/a2e814cf6f.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Hotjar Tracking Code for https://upbeat-allen-6fea03.netlify.app/ -->
+<script>
+    (function(h,o,t,j,a,r){
+        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+        h._hjSettings={hjid:2862122,hjsv:6};
+        a=o.getElementsByTagName('head')[0];
+        r=o.createElement('script');r.async=1;
+        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+        a.appendChild(r);
+    })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+</script>
 </head>
 <body>
     <header>
-        <div class="navbar navbar--bg">
-            <div class="navbar__content navbar-centered">
-                <p class="p-header">Community Science Museum</p>
-                <div class="logo-container">
-                    <a href="index.html" class="logo-header"> <img src=images/logo.png  alt="a logo for Community Science Museum"></a>
-                </div>
-             <input type="checkbox" id="toggle">
-            <label for="toggle"></label>  
-             <nav class="menu">
-                 <a href="" class="nav-link">Home</a>
-                 <a href="visit.html" class="nav-link">Visit Us</a>
-                 <a href="" class="nav-link">Events</a>
-                 <a href="" class="nav-link">Exhibitions</a>
-                 <a href="" class="nav-link">Search</a>
-             </nav>
+        <div class="kol-head_content">
+            <h1 class="p-header">Community Science Museum</h1> 
+            <div class="logo-container">
+                <a href="index.html" class="logo-header"><img src=images/logo.png  class="logo-header" alt="a logo for Community Science Museum" ></a>
             </div>
+            <div class="hamburger">
+                <div class="first"></div>
+                <div class="second"></div>
+                <div class="third"></div>
+            </div>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="index.html" class="nav-link" id="aktiv">Home</a>
+                    </li>
+                    <li>
+                        <a href="visit.html" class="nav-link">Visit Us</a>
+                    </li>
+                    <li>
+                        <a href="contact.html" class="nav-link">Book Tour</a>
+                    </li>
+                    <li>
+                        <a href="about.html" class="nav-link">About Us</a>
+                    </li>
+                </ul>
+            </nav>
         </div>
     </header>
     <main>
         <section class="explore-us-content">
-            <h1 class="mainh1">Community Science Museum</h1>
-                <div class="csmcontent-col">
-                 <img src="images/csm.jpg" alt="inside our museum" class="startimage">
-                 <div class="ctalinks">
-                    <a href="about.html" class="cta">Explore Together</a>
-                 </div>
+            <div class="main-header">
+                <h1 class="mainh1">Welcome to the museum<h1>
+                <h2 class="mainP">of science.</h2>
             </div>
-            </section>
+
+             <div class="explore-div">
+                <img src="images/csm.jpg" alt="inside our museum" class="startimage">
+                <div class="ctalinks">
+                    <a href="about.html" class="cta">Explore Together</a>
+                </div>
+            </div>
+        </section>
         <section class="visit-section">
-            <a href="visit.html" class="visith2">Visit Us</a>
+            <h2 class="visith2">Visit Us</h2>
             <div class="visit-container">
                 <div class="visit-kol">
                  <h3 class="visith3">The Entrance Is Free For All <i class="fas fa-ticket-alt"></i></h3>
@@ -58,7 +82,7 @@
                    <p class="time-openhour2">08 - 19</p>
                    </div>
                    <div class="guidedinfo">
-                    <p class="time-openhour">Saturday - Sunday</p>
+                    <p class="time-openhour">Saturday</p>
                     <p class="time-openhour">10 - 18</p>
                     </div>
                 </div>
@@ -68,22 +92,24 @@
                 </div>
             </div>
         </section>
-            <div class="science-container">
-                <div class="images-kol">
-                    <div class="sciene-image-singel">
-                        <img src="images/sciencewithvr.jpg" alt="a student paints with VR glasses" class="sicence-img">
-                    </div>
-                    <div class="sciene-image-singe2">
-                        <img src="images/science.jpg" alt="a student watching with VR glasses" class="sicence-img2">
-                    </div>
-                    <div class="sciene-image-singel3">
-                        <img src="images/energetica.jpg" alt="a student trying to fix a machine" class="sicence-img">
-                    </div>
+        <div class="science-container">
+            <div class="images-kol">
+                 <div class="sciene-image-singel">
+                    <img src="images/sciencewithvr.jpg" alt="a student paints with VR glasses" class="sicence-img">
                 </div>
+                <div class="sciene-image-singel">
+                    <img src="images/science.jpg" alt="a student watching with VR glasses" class="sicence-img">
+                </div>
+                <div class="sciene-image">
+                    <img src="images/energetica.jpg" alt="a student trying to fix a machine" class="sicence-img">
+                </div>
+            </div>
+            <div class="sciencelink1">
                 <a href="about.html" class="sciencelink">Explore Science</a>
             </div>
+        </div>
         <section class="event-section">
-            <a href="" class="event-special-link">Special Events</a>
+            <h2 class="event-special-link">Special Events</h2>
             <div class="events-container">
                 <div class="events-card">
                     <h2 class="event-h2">Professor of Aeronautics</h2>
@@ -93,7 +119,7 @@
                             lies in this exciting ‘space’.
                         </p>
                         <div class="event-link2">
-                            <a href="" class="event-link">Read More</a>
+                            <a href="contact.html" class="event-link">Book Now</a>
                         </div>
                     </div>
                     <div class="first-card-event">
@@ -112,7 +138,7 @@
                             and science displays
                         </p>
                         <span class="event-link2">
-                            <a href="" class="event-link">Read More</a>
+                            <a href="contact.html" class="event-link">Book Now</a>
                         </span>
                     </div>
                     <p class="event-time">Events</p>
@@ -131,7 +157,7 @@
                             Museum. 
                         </p>
                         <span class="event-link2">
-                            <a href="" class="event-link">Read More</a>
+                            <a href="contact.html" class="event-link">Book Now</a>
                         </span>
                     </div>
                     <p class="event-time">Events</p>
@@ -142,7 +168,7 @@
             </div>
         </section>
         <section class="exhibtions-section">
-            <a href="" class="exhibtions-link1">Exhibitions & Researchers</a>
+            <h3 class="exhibtions-link1">Exhibitions & Researchers</h3>
             <div class="exhibtions-container">
                 <div class="exhibtions-card">
                     <img src="images/heart.jpg" alt="a 3d printed heart" class="exhibtions-img">
@@ -150,7 +176,7 @@
                     <p class="exhibtions-p">Are you looking to get involved 
                         with our team of researchers
                          and academics?</p>
-                    <a href="" class="exhibtions-link2">Explore more</a>
+                    <a href="about.html" class="exhibtions-link2">Explore more</a>
                 </div>
                 <div class="exhibtions-card">
                     <img src="images/robotics.jpg" alt="a boy and girl siting with a robot" class="exhibtions-img">
@@ -158,14 +184,14 @@
                     <p class="exhibtions-p">From useful home applications 
                         of AI to industrial uses of 
                         robotics, the future is here.</p>
-                    <a href="" class="exhibtions-link2">Explore more</a>
+                    <a href="about.html" class="exhibtions-link2">Explore more</a>
                 </div>
                 <div class="exhibtions-card">
                     <img src="images/sky.jpg" alt="photo of the moon become as the full moon" class="exhibtions-img">
                     <h3 class="exhibtions-h3">The Sky Above Us</h3>
                     <p class="exhibtions-p">Our fantastic exhibition, 
                         The Sky Above Us explores the night sky and what we can see and know about the universe around us.</p>
-                    <a href="" class="exhibtions-link2">Explore more</a>
+                    <a href="about.html" class="exhibtions-link2">Explore more</a>
                 </div>
                 <div class="exhibtions-card">
                     <img src="images/evolution.jpg" alt="a photo of the serval skeleton as human evolution" class="exhibtions-img">
@@ -174,13 +200,13 @@
                         this planet and how the 
                         species we know today have 
                         evolved our time.</p>
-                    <a href="" class="exhibtions-link2">Explore more</a>
+                    <a href="about.html" class="exhibtions-link2">Explore more</a>
                 </div>
                 <div class="exhibtions-card">
                     <img src="images/biology.jpg" alt="a photo of a team inside a lab" class="exhibtions-img">
                     <h3 class="exhibtions-h3">Biology</h3>
                     <p class="exhibtions-p">From micro-organisms to the human body, major breakthroughs in biology are offering us unique insights into the great wonders of the tiny world. </p>
-                    <a href="" class="exhibtions-link2">Explore more</a>
+                    <a href="about.html" class="exhibtions-link2">Explore more</a>
                 </div>
                 <div class="exhibtions-card">
                     <img src="images/greenhappines.jpg" alt="a photo of a group of people jumping" class="exhibtions-img">
@@ -189,35 +215,16 @@
                         create a sustainable future not 
                         just for humans but for the 
                         whole planet.</p>
-                    <a href="" class="exhibtions-link2">Explore more</a>
+                    <a href="about.html" class="exhibtions-link2">Explore more</a>
                 </div>
             </div>
         </section>
     </main>
     <footer>
-        <Section class="footer-first">
-             <h3 class="footerh2">Connect with us</h3>
-             <h4 class="footerh3">Enter your email address to receive our newsletter</h4>
-            <div class="footer-container3">
-                <div class="footer-nav1">
-                 <div class="subscribe">
-                    <input type="text" class="subz-field">
-                    <button class="subz-button">Sign up</button>
-                 </div>
-                 <span class="social-links">
-                    <a href=""><i class="fab fa-twitter"></i></a>
-                    <a href=""><i class="fab fa-youtube"></i></a>
-                    <a href=""><i class="fab fa-facebook"></i></a>
-                    <a href=""><i class="fab fa-instagram"></i></a>
-                 </span>
-                 </div>
-                </div>
-        </Section>
-        <div class="border-bottom"></div>
         <section class="footer-middle">
             <div class="footer-container">
                 <div class="footer-info1">
-                    <h2 class="h1-info1">Free Entry <i class="fas fa-ticket-alt"></i></h2> 
+                    <h5 class="h1-info1">Free Entry <i class="fas fa-ticket-alt"></i></h5> 
                     <p class="p-info1">Nydalenveien 22</p>
                     <p class="p-info1">0304 Oslo <i class="fas fa-location-arrow"></i></p>
                </div>
@@ -228,25 +235,23 @@
                     <p class="p-info2">08 - 19</p>
                    </div>
                    <div class="hours-info">
-                    <p class="p-info2">Saturday - Sunday</p>
-                    <p class="p-info2">10 - 18</p>
+                    <p class="p-info3">Saturday</p>
+                    <p class="p-info3">10 - 18</p>
                    </div>
                </div>
             </div>
-        </section>
-        <div class="border-bottom2"></div>
-        <section class="footer-last"> 
+            <div class="border-bottom2"></div>
             <div class="footer-container2">
                 <div class="footer-links1">
                     <a href="" class="footer-links">Support</a>
                     <a href="" class="footer-links">Volunteer</a>
                     <a href="" class="footer-links">Internships</a>
                 </div>
-                <a href="index.html" class="link-logo"> <img src=images/logo.png class="logo-header" alt="a logo for Community Science Museum"></a>
+                <a href="index.html" class="link-logo"> <img src=images/logo.png class="logo-footer" alt="a logo for Community Science Museum"></a>
                 <div class="footer-links2">
                     <a href="about.html" class="footer-links">About Us</a>
-                    <a href="" class="footer-links">Visit Us</a>
-                    <a href="" class="footer-links">Science</a>
+                    <a href="visit.html" class="footer-links">Visit Us</a>
+                    <a href="contact.html" class="footer-links">Book Tour</a>
                 </div>
             </div>
             <div class="copiright-footer">
@@ -254,5 +259,6 @@
             </div>
         </section>
     </footer>
+    <script src="js/menu.js"></script>
 </body>
 </html>

@@ -1,0 +1,1326 @@
+body {
+  margin: 0;
+  font-family: 'Sora', sans-serif;
+}
+
+.contact-body{
+  background: linear-gradient(#D5A839, #9198e5);
+}
+
+#aktiv {
+  font-weight: bolder;
+}
+
+/* style for the header*/
+
+header {
+  height: 120px;
+}
+
+.logo-header {
+  height: 80px;
+  width: 90px;
+}
+
+.kol-head_content {
+  position: relative;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  justify-content: space-between;
+  height: 120px;
+  background: #1E2D40;
+}
+
+.p-header{
+  font-size: 15px;
+  width: 90px;
+  font-weight: normal;
+  margin-left: 20px;
+  color: white;
+}
+
+.explore-div {
+  padding: 0.2rem;
+}
+
+nav {
+  position: absolute;
+  top: 110px;
+  background-color: #1E2D40;
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  transition: transform 0.5s ease-in;
+  border-bottom: #996100 2px solid;
+}
+
+.aktiv {
+  display: flex;
+}
+
+nav ul {
+  border: none;
+}
+
+nav li {
+  display: block;
+  padding: 16px 0;
+}
+  
+.nav-link {
+  color: #ffffff;
+  text-decoration: none;
+  margin-left: 25px;
+  font-weight: lighter;
+  opacity: 0;
+  transition: transform 0.5s ease-in;
+}
+
+.nav-link:hover {
+  color: #996100;
+  text-decoration: underline;
+}
+
+.hamburger div{
+  width: 25px;
+  height: 3px;
+  background-color: rgb(255, 255, 255);
+  margin: 5px;
+  transition: all 0.3s ease;
+}
+
+.hamburger {
+  display: block;
+  cursor: pointer;
+  margin-right: 45px;
+}
+
+/* main font-Syle for the h1, h2, h3 and links cta-buttons*/
+
+.about-h1 {
+  font-size: 30px;
+  font-weight: bolder;
+  position: absolute;
+  color: white;
+  left: 25%; right: 25%; top: 20%;
+  text-align: center;
+  display: none;
+}
+
+.h1Display {
+  opacity: 0;
+}
+
+.arrange-h1 {
+  flex: 0 0 100%;
+  text-align: center;
+  font-size: 25px;
+  font-weight: lighter;
+  text-transform:uppercase;
+}
+
+.visith1 {
+  font-size: 29px;
+  text-align: center;
+  font-weight: lighter;
+}
+
+.about-h2 {
+  font-size: 25px;
+  font-weight: lighter;
+}
+
+.about-h3 {
+  font-size: 20px;
+  font-weight: lighter;
+  text-align: center;
+}
+
+.about-p1 {
+  font-size: 16px;
+}
+
+.about-p {
+  font-size: 16px;
+  text-align: center;
+}
+
+.about-p-science {
+  font-size: 16px;
+   text-align: center;
+}
+  
+.reservation-h2, .book-h2 {
+  font-size: 20px;
+  font-weight: lighter;
+}
+
+.reservation-h3 {
+  font-size: 18px;
+  font-weight: lighter;
+}
+
+.reservation-h4 {
+  font-size: 16px;
+  font-weight: lighter;
+}
+
+.opening-info {
+  display: inline-block;
+  font-weight: lighter;
+  font-size: 15px;
+}
+
+.reservation-telf {
+  text-decoration: underline;
+}
+
+.input-button{
+  padding: 15px 64px;
+  border-radius: 30px;
+  border: none;
+  background-color:#D5A839;
+  font-size: 20px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.input-button:hover {
+  background-color: #997929;
+}
+
+.visith3 {
+  text-align: center;
+  font-size: 20px;
+  font-weight: lighter;
+}
+
+.time-openhour{
+  margin-top: -10px;
+  font-size: 16px;
+  padding-left: 28px;
+}
+
+.time-openhour2, .tour-info {
+  margin-top: -2px;
+  font-size: 16px;
+}
+
+.visit-p-loction {
+  text-align: center;
+  margin-top: -20px;
+  padding-bottom: 20px;
+  font-weight: lighter;
+}
+
+.guided-h2, .arrange-h3{
+  text-align: center;
+  font-size: 29px;
+  font-weight: lighter;
+}
+
+.guided-p, .guided-p2 {
+  padding: 5px;
+  text-align: center;
+  text-indent: 10px;
+  line-height: 1.8;
+  font-weight: lighter;
+  font-size: 16px;
+}
+
+.guided-h4 {
+  display: none;
+  font-size: 25px;
+}
+
+.contact-h4{
+  text-align: center;
+  font-size: 20px;
+  font-weight: lighter;
+ }
+
+.contact-p {
+  text-align: center;
+  line-height: 1.5;
+  font-weight: lighter;
+  font-size: 16px;
+}
+
+.contact-link{
+  text-decoration: none;
+  color: #000000;
+  font-size: 30px;
+  text-transform:capitalize;
+  border: thin solid #FFBB00;
+  padding: 0.2em;
+}
+
+.contact-link:hover, .subz-button:hover, .social-links a:hover {
+  background-color: #BE8D10;
+}
+
+.footer-links:hover, .sciencelink:hover  {
+  text-decoration: underline;
+}
+
+.sciencelink{
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  font-size: 29px;
+  display: block;
+  text-align: center;
+  padding-bottom: 20px;
+  font-weight: lighter;
+}
+
+.mainh1{
+  font-size: 20px;
+  text-align: center;
+  font-weight: 400;
+  color: #000000;
+}
+
+.mainP {
+  text-align: center;
+  font-size: 30px;
+}
+
+.cta{
+  font-size: 29px;
+  text-decoration: none;
+  color: #995905;
+  border: thin solid #FFBB00;
+  padding: 0.2em;
+}
+
+.cta:hover {
+  background-color: #995905d2;
+  color: rgb(255, 255, 255);
+  border: none;
+}
+
+.visith2 {
+  color: #000000;
+  font-size: 29px;
+  text-align: center;
+  font-weight: lighter;
+}
+
+.visith3 {
+  text-align: center;
+  font-size: 20px;
+  font-weight: lighter;
+}
+
+.time-openhour{
+  margin-top: -10px;
+  font-size: 16px;
+  padding-left: 28px;
+}
+
+.time-openhour2, .tour-info {
+  margin-top: -2px;
+  font-size: 16px;
+}
+
+.visit-p-loction {
+  text-align: center;
+  margin-top: -20px;
+  padding-bottom: 20px;
+  font-size: 16px;
+}
+
+.sciencelink1 {
+  background-color: transparent;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.sciencelink{
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  font-size: 29px;
+  font-weight: lighter;
+  display: inline-block;
+}
+
+.event-special-link, .exhibtions-link1 {
+  text-align: center;
+  font-size: 29px;
+  font-weight: lighter;
+  margin-top: 50px;
+}
+
+.info-with-link {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  padding: 1rem;
+}
+
+.guided-h2 {
+  font-size: 29px;
+}
+
+.event-h2 {
+  margin-left: 10px;
+  text-decoration: underline;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.event-time{
+  margin-left: 18px;
+  font-size: 20px;
+  margin-bottom: -10px;
+  font-weight: bold;
+  color: #846108;
+}
+
+.event-time2{
+  margin-left: 16px;
+}
+
+.event-link2{
+  height: 100px;
+  text-align: center;
+  line-height: 100px;
+  border-radius: 50%;
+  border: thin solid #FFBB00;
+  margin-top: -14px;
+}
+
+.event-link2:hover, .exhibtions-link2:hover, .subz-button:hover, .social-links a:hover {
+  background-color:#BE8D10;
+}
+
+.event-link {
+  text-decoration: none;
+  color: #000000;
+  font-size: 17px;
+  font-weight: bold;
+  padding: 0.2em;
+  white-space: nowrap;
+  font-weight: bold;
+  font-style:italic
+}
+
+.info-event{
+  margin-top: -5px;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.exhibtions-h3{
+  text-align: center;
+  font-size: 17px;
+  white-space: nowrap;
+  font-weight: bold;
+}
+
+.exhibtions-p{
+  font-size: 16px;
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: -10px;
+  height: 60px;
+  overflow: hidden;
+}
+
+.exhibtions-link2 {
+  font-size: 17px;
+  text-decoration: none;
+  color: #000000;
+  border: thin solid #000000;
+  padding: 10px 10px 10px;
+  display: block;
+  text-align: center;
+}
+
+.footer-links:hover, .sciencelink:hover {
+  text-decoration: underline;
+}
+
+/* main images for all section*/
+
+.about-img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  object-position: 40% 60%;
+}
+
+.about-img-conttainer {
+  height: 200px;
+  padding-bottom: 10px;
+  border-bottom: solid #FFBB00;
+}
+
+.images-kol{
+  display: flex;
+  justify-content: space-evenly;
+  gap: 20px;
+  padding: 1rem;
+}
+
+.sicence-img{
+  width: 100%;
+  object-fit: cover;
+  border-radius: 40px;
+  padding-top: 20px;
+}
+
+.guidemap-img{
+  height: 350px;
+  width: 100%;
+  text-align: center;
+  margin-top: -30px;
+  margin-bottom: -60px;
+}
+
+.arrange-img, .arrange-img2 {
+  width: 100%;
+  height: 250px;
+  margin-top: 29px;
+  object-fit: cover;
+}
+
+.startimage{
+  max-width: 100%;
+  object-fit: cover;
+  object-position: 50% 55%;
+  position: relative;
+}
+
+.sicence-img{
+  height: 210px;
+  border-radius: 40px;
+  padding-top: 20px;
+  object-fit: cover;
+}
+
+.sicence-img2{
+  height: 220px;
+  border-radius: 40px;
+  padding-top: 10px;
+  object-fit: cover;
+}
+
+.event-images {
+  width: 100%;
+  object-fit: cover;
+  height: 300px;
+}
+
+.exhibtions-img {
+  max-width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.sciene-image-singel {
+  display: none;
+}
+
+/* main sections and contanier for all section*/
+
+.science-container {
+  background-color: #F2F0EB;
+  margin: 5px 20px 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin-top: 50px;
+}
+
+.contact-form{
+  padding: 20px;
+}
+
+.arrang-input input[type=text] {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+.label-name {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+.name{
+  width: 100%;
+  margin-top: 0;
+}
+
+.arrang-input{
+  float: left;
+  width: 80%;
+  margin-top: 6px;
+}
+
+.form-arrang:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#meeting-time{
+  padding-bottom: 10px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.about-us-container {
+  padding: 1rem;
+  text-align: center;
+}
+
+.arrange-reservation, .button-sumit {
+  text-align: center;
+}
+
+.visit-kol{
+  padding-top: 10px;
+}
+
+.guidedinfo {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0 50px 0;
+}
+
+.guided-container {
+  margin: 5px 5px 5px;
+  background-color: #F2F0EB;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.arrange-container{
+  margin: 5px 5px 5px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.arrange-card {
+  width: 375px;
+  height: 483px;
+  text-align: center;
+  background-color: #F2F0EB;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.ctalinks{
+  display: block;
+  text-align: center;
+  margin-top: 4px;
+}
+
+section{
+  margin-bottom: 50px;
+}
+
+.visit-kol{
+  padding-top: 10px;
+}
+
+.guidedinfo {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0 50px 0;
+}
+
+.visit-container {
+  background-color: #F2F0EB;
+  margin: 5px 20px 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.events-card {
+  max-width: 370px;
+  background-color: #F2F0EB;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.events-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.exhibtions-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.exhibtions-card {
+  width: 182px;
+  height: 380px;
+  background-color: #F2F0EB;
+}
+
+/* style for the footer*/
+
+footer {
+   background-color:#ADAAA5;
+   padding: 10px 13px 20px;
+}
+
+.footerh2 {
+  text-align: center;
+  color: #000000;
+  font-size: 20px;
+  font-weight:lighter
+}
+
+.footerh3 {
+  font-size: 17px;
+  color: #000000;
+  text-align: center;
+  font-weight: lighter;
+}
+
+.fa-ticket-alt, .fa-location-arrow, .fa-clock  {
+  color: #FFBB00;
+}
+
+.h1-info1, .h1-info2{
+  font-size: 19px;
+  color: #000000;
+  font-weight: 400;
+  margin-bottom: -2px;
+}
+
+.p-info3 {
+  padding-left: 19px;
+  font-size: 16px;
+}
+
+.hours-info {
+  display: flex;
+  flex-wrap:nowrap;
+  justify-content: space-around;
+  height: 35px;
+}
+
+.footer-container, .footer-container2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.logo-footer {
+   height: 100px;
+}
+
+.footer-links{
+  font-size: 20px;
+  text-decoration: none;
+  color: #000000;
+}
+
+.footer-links1, .footer-links2 {
+  display: flex;
+  flex-direction: column;
+  justify-content:space-between;
+  margin-top: 20px;
+  height: 200px;
+}
+
+.link-logo {
+ padding-top: 18%;
+}
+
+.copiright-footer {
+  text-decoration: none;
+  font-size: 15px;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  position: relative;
+  top: 70px;
+}
+
+.border-bottom{
+  border-bottom: solid 1px rgb(255, 255, 255);
+  margin: 10px 10px 20px;
+}
+
+.border-bottom2{
+  border-bottom: solid 1px rgb(0, 0, 0);
+  margin: 10px 10px 20px;
+}
+
+@media screen and (min-width: 1024px) {
+
+ /* media queries for the header*/
+
+ .hamburger {
+  display: none;
+ }
+
+ .logo-header {
+  height: 100px;
+  width: unset;
+ }
+
+
+  .p-header{
+    font-size: 20px;
+    width: 150px;
+    position: relative;
+    left: 60px;
+  }
+
+  nav {
+    display: flex;
+    position: static;
+    width: unset;
+    border-bottom: unset;
+    background-color: unset;
+  }
+
+  nav ul {
+    display: flex;
+    border: none;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+  
+  nav li {
+    padding: unset;
+  }
+
+  .nav-link {
+    text-decoration: none;
+    margin-right: unset;
+    font-weight: lighter;
+    font-size: 18px;
+    padding-right: 20px;
+    color: #ffffff;
+    opacity: unset;
+
+  }
+
+  .logo-container {
+    display: flex;
+    padding-left: 320px;
+  }
+
+  /* media queries for the main*/
+
+  .name {
+    float: left;
+    width: 18%;
+    margin-top: 6px;
+  }
+
+  .explore-div {
+    padding: 0.3rem;
+  }
+
+  .startimage{
+    object-fit: cover;
+    height: 420px;
+    width: 100%;
+    margin-top: unset;
+  }
+
+  .mainh1{
+    font-size: 30px;
+    font-weight: bolder;
+    color: #000000;
+    text-transform: uppercase;
+  }
+
+  .cta{
+    font-size: 45px;
+    padding: 0.3em;
+    background: #7a7474b4;
+    color: #FFBB00;
+    font-weight: bold;
+  }
+
+  .ctalinks {
+    position: absolute;
+    top: 45%; left: 50%; 
+    transform: translateX(-50%);
+    display: unset;
+  }
+
+  .visit-kol{
+    position: relative;
+    right: 20px;
+  }
+
+  .visith2 {
+    font-size: 45px;
+    margin-left: 145px;
+    text-align: unset;
+  }
+
+  .visit-p-loction, .tour-info {
+    margin-top: unset;
+    padding-bottom: unset;
+    font-size: 20px;
+    font-weight: lighter;
+  }
+
+  .time-openhour, .time-openhour2 {
+    font-size: 20px;
+    font-weight: lighter;
+    padding-right: 20px;
+  }
+
+  .science-container {
+    margin: 5px 145px 5px;
+    margin-bottom: 100px;
+    margin-top: 100px;
+  }
+
+  .sicence-img{
+    width: unset;
+    max-width: 100%;
+    height: 300px;
+    margin-top: 10px;
+  }
+
+  .sicence-img2{
+    width: unset;
+    max-width: 100%;
+    height: 330px;
+    margin-top: 5px;
+  }
+
+  .sciencelink, .exhibtions-link1{
+    font-size: 45px;
+    font-weight: lighter;
+  }
+
+  .exhibtions-link1 {
+    margin-bottom: 20px;
+  }
+
+  .event-section{
+    margin-bottom: 100px;
+  }
+
+  .events-container {
+    gap: 110px;
+  }
+
+  .event-special-link {
+    text-align: left;
+    font-size: 46px;
+    margin-bottom: 20px;
+    padding-left: 6%;
+    font-weight: lighter;
+  }
+
+  .events-card {
+    max-width: 550px;
+    height: 550px;
+  }
+
+  .first-card-event {
+    position: relative;
+    top: 24px;
+  }
+
+  .info-event{
+    margin-right: 55px;
+    font-size: 18px;
+    max-width: 280px;
+    font-weight: lighter;
+  }
+
+  .event-link {
+    font-size: 20px;
+  }
+
+  .event-h2, .visith3 {
+    font-size: 25px;
+  }
+
+  .exhibtions-section {
+    margin-bottom: 100px;
+  }
+
+  .exhibtions-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin: 5px 5px 5px;
+  }
+
+  .exhibtions-card {
+    width: 247px;
+    height: 400px;
+    background-color: #F2F0EB;
+  }
+
+  .exhibtions-h3{
+    font-size: 20px;
+  }
+
+  .guidedinfo {
+    margin: unset;
+  }
+
+  .event-time{
+    font-size: 22px;
+  }
+
+  .event-time2{
+    margin-left: 19px;
+  }
+
+  .exhibtions-p {
+    font-size: 18px;
+    height: 70px;
+  }
+
+  .sciene-image-singel {
+    display: unset;
+  }
+
+  .cta:hover {
+    background-color: #00000062;
+    color: #FFBB00;
+  }
+
+  .exhibtions-link2 {
+    font-size: 20px;
+  }
+
+  .arrange-contact {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2em;
+  }
+
+  .visit-container {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 5px 145px 5px;
+  }
+
+  .visit-kol{
+    position: relative;
+    right: 20px;
+  }
+
+  .visith1 {
+    font-size: 45px;
+    margin-top: 50px;
+  }
+
+  .arrange-h1 {
+    font-size: 40px;
+  }
+
+  .visit-p-loction, .tour-info {
+    margin-top: unset;
+    padding-bottom: unset;
+    font-size: 18px;
+    font-weight: lighter;
+  }
+
+  .time-openhour, .time-openhour2 {
+    font-size: 18px;
+    font-weight: lighter;
+  }
+
+  .guided-h2 {
+    text-align: left;
+    margin-left: 150px;
+    position: relative;
+    top: 135px;
+    font-size: 40px;
+    font-weight: lighter;
+  }
+
+  .guided-h4 {
+    text-align: left;
+    margin-left: 150px;
+    position: relative;
+    top: 250px;
+    display: unset;
+    font-weight: lighter;
+    font-size: 30px;
+  }
+
+  .arrange-h3{
+    font-size: 40px;
+    margin-top: 100px;
+  }
+
+  .guided-p {
+    text-align: left;
+    text-indent: unset;
+    padding-top: 50px;
+    font-size: 18px;
+  }
+
+  .guided-p2{
+    text-align: left;
+    margin-top: -110px;
+    text-indent: unset;
+    font-size: 18px;
+  }
+
+  .guided-container {
+    margin: 5px 145px 5px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+  }
+
+  .guidemap-img{
+    height: 350px;
+    width: 70%;
+    margin-bottom: unset;
+    margin-top: unset;
+  }
+
+  .guidemap-img1 {
+    text-align: center;
+  }
+
+  .arrange-card {
+    width: 375px;
+  }
+
+  .arrange-container{
+    gap: 100px;
+  }
+
+  .guided-section{
+    margin-top: -100px;
+  }
+
+  .arrang-input{
+    width: 60%;
+  }
+
+  .arrange-reservation, .contact-form {
+    text-align: center;
+  }
+
+  .about-h1 {
+    font-size: 50px;
+    font-weight: bolder;
+    left: 25%; right: 25%; top: 25%;
+    display: unset;
+  }
+
+  .display {
+    display: none;
+    opacity: 0;
+  }
+
+
+
+  .about-h2 {
+    font-size: 30px;
+  }
+
+  .about-p1 {
+    font-size: 18px;
+  }
+
+  .aboutp-container {
+    margin: 10px 350px 10px;
+  }
+
+  .about-h3, .visith3 {
+    font-size: 25px;
+  }
+
+  .reservation-h2, .book-h2 {
+    font-size: 29px;
+  }
+
+  .reservation-h3 {
+    font-size: 20px;
+  }
+
+  .reservation-h4, .contact-p {
+    font-size: 18px;
+  }
+
+  .about-p {
+    font-size: 18px;
+  }
+
+  .about-p-science {
+    font-size: 18px;
+    text-align: center;
+    min-width: 100px;
+  }
+
+  .opening-info {
+    font-size: 20px;
+    margin: 0 100px 0;
+  }
+
+  .about-img {
+    height: 450px;
+  }
+  
+  .about-img-conttainer {
+    height: 450px;
+    position: relative;
+  }
+
+
+  .sicence-img{
+    width: unset;
+    max-width: 100%;
+    height: 300px;
+    margin-top: 10px;
+  }
+
+  .sicence-img2{
+    width: unset;
+    max-width: 100%;
+    height: 330px;
+    margin-top: 5px;
+  }
+
+  .about-section {
+    display: flex;
+  }
+
+  .arrange-img {
+    height: 250px;
+  }
+  
+  .arrange-img2 {
+    width: 65%;
+    height: 250px;
+  }
+
+  .guidedinfo {
+    margin: unset;
+  }
+
+  .contact-h4{
+    font-size: 25px;
+  }
+  
+ /* media queries for the footer*/
+
+  .footerh2 {
+    text-align: unset;
+    font-size: 30px;
+    position: relative;
+    top: 25px; left: 14%;
+    max-width: 100px;
+    white-space: nowrap;
+  }
+
+  .footerh3 {
+    font-size: 21px;
+    text-align: right;
+    position: relative;
+    right: 17%;
+  }
+
+  .footer-container {
+    justify-content: space-evenly;
+    position: relative;
+    top: 60px;
+    height: 0;
+  }
+
+  .footer-links{
+    font-size: 25px;
+  }
+
+  .link-logo {
+    position: relative;
+    top: 50px; right: 40px;
+    padding-top: unset;
+  }
+
+  .copiright-footer {
+    margin-top: 20px;
+  }
+
+  .border-bottom{
+    margin: 10px 200px 20px;
+  }
+
+  .border-bottom2{
+    display: none;
+  }
+
+  .footer-links1 {
+    position: relative;
+    right: 60px;
+  }
+
+  .footer-links2 {
+    position: relative;
+    left: 60px;
+  }
+
+  .subz-field {
+    height: 35px;
+   }
+ 
+  .subz-button{
+    height: 37px;
+    font-size: 20px;
+  }
+
+  .footer-info1{
+    position: relative;
+    bottom: 35px;
+    left: 23px;
+  }
+
+  .footer-info2{
+    position: relative;
+    right: 23px;
+    bottom: 40px;
+  }
+
+  .p-info2, .p-info1, .p-info3{
+    font-size: 18px;
+  }
+
+  .h1-info1, .h1-info2{
+    font-size: 22px;
+  }
+}
+
+@keyframes navLinkOpacity {
+  from {
+    opacity: 0;
+    transform: translateX(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
+
+.burger .first {
+  transform: rotate(-45deg) translate(-5px, 6px);
+  background-color: white;
+}
+.burger .second {
+  opacity: 0;
+}
+.burger .third {
+  transform: rotate(45deg) translate(-5px, -6px);
+  background-color: white;
+}
