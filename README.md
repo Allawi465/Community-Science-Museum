@@ -3,16 +3,7 @@
 
 ## Description
 
-The project was to crate a informative and appealing website to attract viewers and encourage them to visit the museum.
-
-The website have four page
-
-- index.html for the Homepage
-- visit.html for the Visit Us page 
-- about.html for the About page 
-- contact.html for the Contact Us page
-
-This is a semester project 1 final delivery. 
+Community Science Museum was my semester project on Noroff. The project was to crate a informative and appealing website, to attract viewers and encourage them to visit the museum.
 
 ## Built With
 
