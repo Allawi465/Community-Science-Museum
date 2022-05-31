@@ -3,7 +3,9 @@
 
 ## Description
 
-Community Science Museum was my semester project on Noroff. The project was to crate a informative and appealing website, to attract viewers and encourage them to visit the museum.
+Community Science Museum was my semester project on Noroff. 
+
+The project was to crate a informative and appealing website, to attract viewers and encourage them to visit the museum.
 
 ## Built With
 
