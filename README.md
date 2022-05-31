@@ -11,6 +11,7 @@ The project was just build with
 
 - HTML 
 - CSS
+- JavaScript
 
 ## Getting Started
 
